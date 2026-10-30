@@ -1,0 +1,13 @@
+\begin{tabular}{lrrrrrrr}
+\toprule
+ & n & TF-IDF + LR & RoBERTa-base (fine-tuned) & sdgBERT (off-the-shelf) & Qwen3.5-9B LoRA (fine-tuned) & Gemma-4-12B-QAT LoRA (fine-tuned) & Llama-3.1-8B-Instruct LoRA (fine-tuned) \\
+g &  &  &  &  &  &  &  \\
+\midrule
+<.2 & 320 & 0.475 & 0.575 & 0.625 & 0.622 & 0.531 & 0.603 \\
+.2-.4 & 737 & 0.607 & 0.678 & 0.741 & 0.687 & 0.657 & 0.678 \\
+.4-.6 & 899 & 0.700 & 0.750 & 0.871 & 0.758 & 0.741 & 0.751 \\
+.6-.8 & 1065 & 0.838 & 0.872 & 0.960 & 0.876 & 0.863 & 0.875 \\
+>=.8 & 2353 & 0.874 & 0.905 & 0.950 & 0.912 & 0.908 & 0.914 \\
+all & 5374 & 0.777 & 0.822 & 0.891 & 0.831 & 0.814 & 0.828 \\
+\bottomrule
+\end{tabular}

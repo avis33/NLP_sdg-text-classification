@@ -1,0 +1,18 @@
+,support,TF-IDF + LR (OSDG-trained),TF-IDF + LR (SDGi-trained),RoBERTa-base (OSDG-trained),RoBERTa-base (SDGi-trained),sdgBERT (off-the-shelf),Qwen3.5-9B LoRA (OSDG-trained),Gemma-4-12B-QAT LoRA (OSDG-trained),Llama-3.1-8B-Instruct LoRA (OSDG-trained)
+1: No Poverty,59.0,0.75,0.8983,0.788,0.8348,0.7586,0.8276,0.7805,0.7619
+2: Zero Hunger,44.0,0.8333,0.8395,0.7465,0.8691,0.7407,0.8916,0.8764,0.6667
+3: Good Health and Well-being,51.0,0.7706,0.8462,0.8542,0.877,0.8387,0.88,0.8317,0.8842
+4: Quality Education,56.0,0.7895,0.8571,0.831,0.8724,0.8119,0.9245,0.8929,0.8679
+5: Gender Equality,28.0,0.6923,0.8966,0.6911,0.8467,0.6849,0.8182,0.72,0.7123
+6: Clean Water and Sanitation,40.0,0.8,0.8916,0.7928,0.8512,0.8182,0.8222,0.8222,0.8261
+7: Affordable and Clean Energy,21.0,0.7241,0.8235,0.7632,0.7862,0.6562,0.8571,0.84,0.7778
+8: Decent Work and Economic Growth,79.0,0.6588,0.8047,0.6827,0.8197,0.6528,0.7724,0.7867,0.7755
+"9: Industry, Innovation and Infrastructure",61.0,0.7966,0.8522,0.7661,0.8744,0.7257,0.8293,0.8793,0.7736
+10: Reduced Inequalities,82.0,0.2366,0.8784,0.5842,0.8554,0.5694,0.8116,0.7132,0.6825
+11: Sustainable Cities and Communities,103.0,0.7222,0.8326,0.692,0.853,0.698,0.751,0.8136,0.7224
+12: Responsible Consumption and Production,58.0,0.8235,0.8829,0.7469,0.8195,0.7069,0.8403,0.8547,0.7748
+13: Climate Action,51.0,0.7778,0.9057,0.776,0.858,0.766,0.866,0.898,0.8485
+14: Life Below Water,21.0,0.5333,0.8718,0.6658,0.9161,0.5714,0.6875,0.7273,0.6875
+15: Life on Land,39.0,0.7857,0.8649,0.7897,0.8469,0.6757,0.8116,0.8235,0.806
+"16: Peace, Justice and Strong Institutions",55.0,0.7273,0.9245,0.6015,0.9284,0.6286,0.902,0.8257,0.8247
+MACRO avg,848.0,0.7139,0.8669,0.7357,0.8568,0.7065,0.8308,0.8178,0.7745

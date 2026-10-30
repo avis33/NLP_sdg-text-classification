@@ -1,0 +1,9 @@
+Model,Trained on,#runs,accuracy,macro_f1,macro_AP
+TF-IDF + LR (OSDG-trained),OSDG-train (transfer),1,0.7217,0.7139,0.8427
+TF-IDF + LR (SDGi-trained),SDGi-train,1,0.8632,0.8669,0.9241
+RoBERTa-base (OSDG-trained),OSDG-train (transfer),3,0.7284,0.7357,0.7860
+RoBERTa-base (SDGi-trained),SDGi-train,3,0.8550,0.8568,0.8728
+sdgBERT (off-the-shelf),OSDG (external),1,0.7064,0.7065,0.7950
+Qwen3.5-9B LoRA (OSDG-trained),OSDG-train (transfer),1,0.8267,0.8308,0.9169
+Gemma-4-12B-QAT LoRA (OSDG-trained),OSDG-train (transfer),1,0.8196,0.8178,0.9144
+Llama-3.1-8B-Instruct LoRA (OSDG-trained),OSDG-train (transfer),1,0.7712,0.7745,0.8364

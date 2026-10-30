@@ -1,0 +1,11 @@
+\begin{tabular}{llll}
+\toprule
+ & accuracy & macro_f1 & top3_acc \\
+Model &  &  &  \\
+\midrule
+TF-IDF + LR  (SDGi-trained -> OSDG) & 0.705 & 0.688 & 0.895 \\
+RoBERTa-base  (SDGi-trained -> OSDG) & 0.8151 ± 0.0027 & 0.7847 ± 0.0025 & 0.9501 ± 0.0029 \\
+TF-IDF + LR  (in-domain OSDG) & 0.8615 & 0.8196 & 0.9655 \\
+RoBERTa-base (fine-tuned)  (in-domain OSDG) & 0.8933 ± 0.0015 & 0.8566 ± 0.0036 & 0.9772 ± 0.0007 \\
+\bottomrule
+\end{tabular}

@@ -1,0 +1,15 @@
+,value
+osdg_docs,15984.0
+sdgi_docs,3387.0
+osdg_avg_words,95.61692942942943
+sdgi_avg_words,1218.4056687333923
+osdg_vocab,41122.0
+sdgi_vocab,66721.0
+shared_vocab,21162.0
+vocab_jaccard,0.24413654664805437
+sdgi_types_not_in_osdg,0.6828284947767569
+osdg_types_not_in_sdgi,0.48538495209376975
+label_prevalence_spearman,0.3558823529411765
+label_prevalence_spearman_p,0.17610373809159305
+js_divergence_label_mass,0.024075145723472698
+mean_per_sdg_tfidf_centroid_cosine,0.6732181293352617

@@ -1,0 +1,10 @@
+slice,value,n,TF-IDF + LR,RoBERTa-base (fine-tuned),sdgBERT (off-the-shelf)
+agreement_bin,<.2,320,0.475,0.575,0.625
+agreement_bin,.2-.4,737,0.607,0.678,0.741
+agreement_bin,.4-.6,899,0.7,0.75,0.871
+agreement_bin,.6-.8,1065,0.838,0.872,0.96
+agreement_bin,>=.8,2353,0.874,0.905,0.95
+length_bin,Q1 (shortest),1344,0.7,0.771,0.856
+length_bin,Q2,1343,0.746,0.787,0.867
+length_bin,Q3,1343,0.815,0.858,0.905
+length_bin,Q4 (longest),1344,0.849,0.871,0.933

@@ -1,0 +1,4 @@
+Model,n,zero-shot acc,zero-shot macro-F1,LoRA acc,LoRA macro-F1
+Qwen3.5-9B LoRA (fine-tuned),496,0.6875,0.6867,0.8327,0.8276
+Gemma-4-12B-QAT LoRA (fine-tuned),496,0.75,0.747,0.8407,0.8343
+Llama-3.1-8B-Instruct LoRA (fine-tuned),496,0.5867,0.6006,0.8448,0.8397

@@ -1,0 +1,19 @@
+\begin{tabular}{llrlllllll}
+\toprule
+ & Type & n & parse failures & accuracy & hit_rate & macro_f1 & macro_precision & macro_recall & avg_pred_labels \\
+Model &  &  &  &  &  &  &  &  &  \\
+\midrule
+TF-IDF + LR & trained / pre-trained & 496 & - & 0.8085 & 0.8085 & 0.8024 & 0.8126 & 0.8085 & 1.0000 \\
+RoBERTa-base (fine-tuned) & trained / pre-trained & 496 & - & 0.8347 & 0.8347 & 0.8284 & 0.8299 & 0.8347 & 1.0000 \\
+sdgBERT (off-the-shelf) & trained / pre-trained & 496 & - & 0.9194 & 0.9194 & 0.9167 & 0.9236 & 0.9194 & 1.0000 \\
+Qwen3.5-9B LoRA (fine-tuned) & trained / pre-trained & 496 & - & 0.8327 & 0.8327 & 0.8276 & 0.8298 & 0.8327 & 1.0000 \\
+Gemma-4-12B-QAT LoRA (fine-tuned) & trained / pre-trained & 496 & - & 0.8407 & 0.8407 & 0.8343 & 0.8413 & 0.8407 & 1.0000 \\
+Llama-3.1-8B-Instruct LoRA (fine-tuned) & trained / pre-trained & 496 & - & 0.8448 & 0.8448 & 0.8397 & 0.8436 & 0.8448 & 1.0000 \\
+meta-llama-3.1-8b-instruct  [zero-shot] & plain LLM (LM Studio) & 496 & 0.0% & 0.4859 & 0.4859 & 0.4672 & 0.6607 & 0.4859 & 1.0000 \\
+meta-llama-3.1-8b-instruct  [few-shot, 2/SDG] & plain LLM (LM Studio) & 496 & 0.0% & 0.5645 & 0.5645 & 0.5621 & 0.6796 & 0.5645 & 1.0000 \\
+qwen/qwen3.5-9b  [zero-shot] & plain LLM (LM Studio) & 496 & 0.0% & 0.6935 & 0.6935 & 0.6934 & 0.7379 & 0.6935 & 1.0000 \\
+qwen/qwen3.5-9b  [few-shot, 2/SDG] & plain LLM (LM Studio) & 496 & 0.0% & 0.7742 & 0.7742 & 0.7721 & 0.7806 & 0.7742 & 1.0000 \\
+google/gemma-4-12b-qat  [zero-shot] & plain LLM (LM Studio) & 496 & 0.0% & 0.7641 & 0.7641 & 0.7655 & 0.7819 & 0.7641 & 1.0000 \\
+google/gemma-4-12b-qat  [few-shot, 2/SDG] & plain LLM (LM Studio) & 496 & 0.0% & 0.7863 & 0.7863 & 0.7825 & 0.7873 & 0.7863 & 1.0000 \\
+\bottomrule
+\end{tabular}

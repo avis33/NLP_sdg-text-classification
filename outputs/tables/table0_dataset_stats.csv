@@ -1,0 +1,18 @@
+SDG,OSDG train,OSDG dev,OSDG test,SDGi train,SDGi dev,SDGi test (en)
+1: No Poverty,850,195,197,268,48,89
+2: Zero Hunger,553,157,121,250,39,63
+3: Good Health and Well-being,1289,275,285,349,60,91
+4: Quality Education,1653,343,367,328,54,94
+5: Gender Equality,1687,374,370,289,51,46
+6: Clean Water and Sanitation,954,199,184,226,43,56
+7: Affordable and Clean Energy,1256,280,375,258,45,42
+8: Decent Work and Economic Growth,648,125,131,330,62,129
+"9: Industry, Innovation and Infrastructure",922,195,223,278,58,108
+10: Reduced Inequalities,601,133,147,281,55,122
+11: Sustainable Cities and Communities,941,171,181,395,73,172
+12: Responsible Consumption and Production,357,100,75,272,46,98
+13: Climate Action,781,181,152,332,63,93
+14: Life Below Water,526,117,120,194,34,33
+15: Life on Land,824,154,165,246,39,62
+"16: Peace, Justice and Strong Institutions",2142,466,473,285,45,87
+TOTAL texts,15984,3465,3566,3387,600,965

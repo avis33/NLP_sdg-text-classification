@@ -1,0 +1,7 @@
+Model,variant,T,accuracy,nll,brier,ece
+TF-IDF + LR,raw,1.0,0.8615,0.5747,0.2172,0.0562
+TF-IDF + LR,temp-scaled,1.415,0.8615,0.5177,0.216,0.0433
+RoBERTa-base (fine-tuned),raw,1.0,0.8915,0.4868,0.1869,0.0744
+RoBERTa-base (fine-tuned),temp-scaled,1.413,0.8915,0.4168,0.1737,0.0246
+sdgBERT (off-the-shelf),raw,1.0,0.9504,0.1845,0.0787,0.0106
+sdgBERT (off-the-shelf),temp-scaled,1.013,0.9504,0.1841,0.0786,0.0101

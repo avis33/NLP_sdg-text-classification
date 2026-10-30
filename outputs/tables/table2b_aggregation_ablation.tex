@@ -1,0 +1,19 @@
+\begin{tabular}{llrrrr}
+\toprule
+ & aggregation & threshold & micro_f1 & macro_f1 & macro_AP \\
+Model &  &  &  &  &  \\
+\midrule
+RoBERTa-base (OSDG-trained) & first & 0.160 & 0.601 & 0.600 & 0.624 \\
+RoBERTa-base (OSDG-trained) & max & 0.970 & 0.552 & 0.556 & 0.552 \\
+RoBERTa-base (OSDG-trained) & mean * & 0.340 & 0.620 & 0.622 & 0.611 \\
+RoBERTa-base (SDGi-trained) & first * & 0.420 & 0.739 & 0.729 & 0.793 \\
+RoBERTa-base (SDGi-trained) & max & 0.970 & 0.686 & 0.685 & 0.662 \\
+RoBERTa-base (SDGi-trained) & mean & 0.370 & 0.740 & 0.729 & 0.777 \\
+sdgBERT (off-the-shelf) & first * & 0.140 & 0.599 & 0.593 & 0.649 \\
+sdgBERT (off-the-shelf) & max & 0.970 & 0.561 & 0.558 & 0.560 \\
+sdgBERT (off-the-shelf) & mean & 0.370 & 0.626 & 0.620 & 0.630 \\
+Qwen3.5-9B LoRA (OSDG-trained) & first * & 0.290 & 0.678 & 0.679 & 0.742 \\
+Qwen3.5-9B LoRA (OSDG-trained) & max & 0.980 & 0.642 & 0.633 & 0.621 \\
+Qwen3.5-9B LoRA (OSDG-trained) & mean & 0.410 & 0.656 & 0.655 & 0.691 \\
+\bottomrule
+\end{tabular}

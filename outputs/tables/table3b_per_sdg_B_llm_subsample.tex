@@ -1,0 +1,23 @@
+\begin{tabular}{lrrrrrrrrrrrr}
+\toprule
+ & support & TF-IDF + LR (OSDG-trained) & TF-IDF + LR (SDGi-trained) & RoBERTa-base (OSDG-trained) & RoBERTa-base (SDGi-trained) & sdgBERT (off-the-shelf) & Qwen3.5-9B LoRA (OSDG-trained) & Gemma-4-12B-QAT LoRA (OSDG-trained) & Llama-3.1-8B-Instruct LoRA (OSDG-trained) & meta-llama-3.1-8b-instruct [B-zero] & qwen/qwen3.5-9b [B-zero] & google/gemma-4-12b-qat [B-zero] \\
+\midrule
+1: No Poverty & 61.000 & 0.610 & 0.692 & 0.607 & 0.720 & 0.614 & 0.627 & 0.615 & 0.610 & 0.535 & 0.593 & 0.466 \\
+2: Zero Hunger & 37.000 & 0.698 & 0.710 & 0.597 & 0.641 & 0.615 & 0.721 & 0.697 & 0.568 & 0.679 & 0.675 & 0.633 \\
+3: Good Health and Well-being & 49.000 & 0.581 & 0.758 & 0.673 & 0.762 & 0.683 & 0.683 & 0.691 & 0.675 & 0.698 & 0.590 & 0.463 \\
+4: Quality Education & 59.000 & 0.736 & 0.730 & 0.702 & 0.670 & 0.673 & 0.729 & 0.714 & 0.710 & 0.660 & 0.677 & 0.556 \\
+5: Gender Equality & 32.000 & 0.518 & 0.727 & 0.540 & 0.629 & 0.462 & 0.656 & 0.636 & 0.597 & 0.627 & 0.532 & 0.373 \\
+6: Clean Water and Sanitation & 33.000 & 0.657 & 0.794 & 0.680 & 0.760 & 0.687 & 0.739 & 0.719 & 0.727 & 0.649 & 0.535 & 0.585 \\
+7: Affordable and Clean Energy & 29.000 & 0.597 & 0.656 & 0.642 & 0.691 & 0.548 & 0.731 & 0.717 & 0.679 & 0.259 & 0.397 & 0.523 \\
+8: Decent Work and Economic Growth & 84.000 & 0.537 & 0.731 & 0.538 & 0.751 & 0.549 & 0.619 & 0.632 & 0.617 & 0.440 & 0.613 & 0.500 \\
+9: Industry, Innovation and Infrastructure & 62.000 & 0.642 & 0.741 & 0.611 & 0.751 & 0.625 & 0.626 & 0.632 & 0.556 & 0.405 & 0.673 & 0.587 \\
+10: Reduced Inequalities & 87.000 & 0.255 & 0.800 & 0.472 & 0.741 & 0.513 & 0.631 & 0.557 & 0.545 & 0.676 & 0.749 & 0.632 \\
+11: Sustainable Cities and Communities & 109.000 & 0.682 & 0.775 & 0.641 & 0.771 & 0.628 & 0.716 & 0.757 & 0.708 & 0.622 & 0.737 & 0.653 \\
+12: Responsible Consumption and Production & 63.000 & 0.648 & 0.743 & 0.596 & 0.712 & 0.556 & 0.654 & 0.660 & 0.615 & 0.556 & 0.694 & 0.563 \\
+13: Climate Action & 55.000 & 0.612 & 0.804 & 0.593 & 0.785 & 0.696 & 0.667 & 0.667 & 0.651 & 0.214 & 0.414 & 0.428 \\
+14: Life Below Water & 24.000 & 0.529 & 0.809 & 0.602 & 0.697 & 0.540 & 0.703 & 0.629 & 0.545 & 0.500 & 0.744 & 0.762 \\
+15: Life on Land & 35.000 & 0.563 & 0.691 & 0.634 & 0.758 & 0.625 & 0.667 & 0.714 & 0.667 & 0.600 & 0.634 & 0.467 \\
+16: Peace, Justice and Strong Institutions & 54.000 & 0.587 & 0.765 & 0.484 & 0.781 & 0.449 & 0.697 & 0.673 & 0.659 & 0.614 & 0.792 & 0.673 \\
+MACRO avg & 873.000 & 0.591 & 0.745 & 0.601 & 0.726 & 0.592 & 0.679 & 0.669 & 0.633 & 0.546 & 0.628 & 0.554 \\
+\bottomrule
+\end{tabular}

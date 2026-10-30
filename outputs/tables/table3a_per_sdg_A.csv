@@ -1,0 +1,18 @@
+,support,TF-IDF + LR,RoBERTa-base (fine-tuned),sdgBERT (off-the-shelf),Qwen3.5-9B LoRA (fine-tuned),Gemma-4-12B-QAT LoRA (fine-tuned),Llama-3.1-8B-Instruct LoRA (fine-tuned)
+1: No Poverty,197.0,0.807,0.8383,0.9291,0.8392,0.8313,0.8444
+2: Zero Hunger,121.0,0.7672,0.8299,0.9174,0.8655,0.7687,0.8596
+3: Good Health and Well-being,285.0,0.9267,0.9483,0.9754,0.96,0.9653,0.9553
+4: Quality Education,367.0,0.9538,0.957,0.9918,0.9638,0.9578,0.9628
+5: Gender Equality,370.0,0.9221,0.9486,0.9748,0.95,0.9413,0.9465
+6: Clean Water and Sanitation,184.0,0.861,0.9196,0.9438,0.9214,0.9081,0.9256
+7: Affordable and Clean Energy,375.0,0.8972,0.9281,0.9618,0.9221,0.914,0.9258
+8: Decent Work and Economic Growth,131.0,0.4858,0.5554,0.7863,0.5725,0.535,0.616
+"9: Industry, Innovation and Infrastructure",223.0,0.7265,0.8303,0.9301,0.8028,0.8054,0.8065
+10: Reduced Inequalities,147.0,0.6371,0.6796,0.8581,0.6446,0.6228,0.6446
+11: Sustainable Cities and Communities,181.0,0.7765,0.8326,0.9096,0.8305,0.8402,0.8353
+12: Responsible Consumption and Production,75.0,0.7132,0.7469,0.8758,0.7483,0.7432,0.7815
+13: Climate Action,152.0,0.804,0.8035,0.8867,0.8404,0.8208,0.8498
+14: Life Below Water,120.0,0.9417,0.9574,1.0,0.963,0.9669,0.9714
+15: Life on Land,165.0,0.9249,0.9448,0.9819,0.9524,0.9547,0.9555
+"16: Peace, Justice and Strong Institutions",473.0,0.9685,0.9846,0.9979,0.9894,0.9745,0.9776
+MACRO avg,3566.0,0.8196,0.8566,0.9325,0.8604,0.8469,0.8662

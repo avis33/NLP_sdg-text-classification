@@ -1,0 +1,23 @@
+\begin{tabular}{llrrrrl}
+\toprule
+model & task & params_M & train_time_min & infer_s_per_1k_texts & peak_gpu_GiB & device \\
+\midrule
+Gemma-4-12B-QAT LoRA (fine-tuned) & OSDG (multi-class) & 6575.325 & 71.325 & 167.455 & 8.840 & NVIDIA L4 \\
+Llama-3.1-8B-Instruct LoRA (fine-tuned) & OSDG (multi-class) & 4670.624 & 42.441 & 102.742 & 7.707 & NVIDIA L4 \\
+Qwen3.5-9B LoRA (fine-tuned) & OSDG (multi-class) & 5979.660 & 44.345 & 104.866 & 13.449 & NVIDIA L4 \\
+RoBERTa-base & OSDG (multi-class) & 124.658 & 11.292 & 2.020 & 3.233 & NVIDIA GeForce RTX 5060 Laptop GPU \\
+RoBERTa-base & SDGi (multi-label, chunks) & 124.658 & 21.030 & 2.539 & 3.238 & NVIDIA GeForce RTX 5060 Laptop GPU \\
+TF-IDF + LR & OSDG (multi-class) & 2.474 & 0.414 & 0.153 & NaN & CPU \\
+TF-IDF + LR & SDGi (multi-label) & 3.200 & 0.420 & 3.425 & NaN & CPU \\
+google/gemma-4-12b-qat (A-few) & plain LLM, no training (LM Studio) & NaN & 0.000 & 4594.617 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+google/gemma-4-12b-qat (A-zero) & plain LLM, no training (LM Studio) & NaN & 0.000 & 2456.864 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+google/gemma-4-12b-qat (B-zero) & plain LLM, no training (LM Studio) & NaN & 0.000 & 3840.366 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+meta-llama-3.1-8b-instruct (A-few) & plain LLM, no training (LM Studio) & NaN & 0.000 & 383.600 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+meta-llama-3.1-8b-instruct (A-zero) & plain LLM, no training (LM Studio) & NaN & 0.000 & 330.451 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+meta-llama-3.1-8b-instruct (B-zero) & plain LLM, no training (LM Studio) & NaN & 0.000 & 854.281 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+qwen/qwen3.5-9b (A-few) & plain LLM, no training (LM Studio) & NaN & 0.000 & 593.975 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+qwen/qwen3.5-9b (A-zero) & plain LLM, no training (LM Studio) & NaN & 0.000 & 543.149 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+qwen/qwen3.5-9b (B-zero) & plain LLM, no training (LM Studio) & NaN & 0.000 & 1067.233 & NaN & NVIDIA GeForce RTX 5060 Laptop GPU via LM Studio \\
+sdgBERT & inference only & 109.495 & 0.000 & 2.338 & 1.012 & NVIDIA GeForce RTX 5060 Laptop GPU \\
+\bottomrule
+\end{tabular}

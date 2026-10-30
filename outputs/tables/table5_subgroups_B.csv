@@ -1,0 +1,4 @@
+language,n,TF-IDF + LR (OSDG-trained),TF-IDF + LR (SDGi-trained),RoBERTa-base (OSDG-trained),RoBERTa-base (SDGi-trained),sdgBERT (off-the-shelf),Qwen3.5-9B LoRA (OSDG-trained),Gemma-4-12B-QAT LoRA (OSDG-trained),Llama-3.1-8B-Instruct LoRA (OSDG-trained)
+en,965,0.607,0.751,0.62,0.739,0.599,0.678,0.676,0.64
+es,208,0.17,0.401,0.38,0.535,0.232,0.676,0.67,0.63
+fr,169,0.29,0.654,0.523,0.578,0.432,0.923,0.906,0.869

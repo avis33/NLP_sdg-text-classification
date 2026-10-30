@@ -1,0 +1,12 @@
+Model,Type,n,parse failures,accuracy,hit_rate,macro_f1,macro_precision,macro_recall,avg_pred_labels
+TF-IDF + LR (OSDG-trained),trained / pre-trained,600,-,0.5817,0.7883,0.5909,0.6898,0.5631,1.2650
+TF-IDF + LR (SDGi-trained),trained / pre-trained,600,-,0.6933,0.9000,0.7453,0.8106,0.7020,1.3417
+RoBERTa-base (OSDG-trained),trained / pre-trained,600,-,0.5778,0.7706,0.6007,0.7284,0.5368,1.1611
+RoBERTa-base (SDGi-trained),trained / pre-trained,600,-,0.7206,0.8928,0.7264,0.7304,0.7265,1.4344
+sdgBERT (off-the-shelf),trained / pre-trained,600,-,0.5400,0.7883,0.5915,0.6599,0.5551,1.2800
+Qwen3.5-9B LoRA (OSDG-trained),trained / pre-trained,600,-,0.6867,0.8517,0.6791,0.8390,0.5862,1.0850
+Gemma-4-12B-QAT LoRA (OSDG-trained),trained / pre-trained,600,-,0.7050,0.8333,0.6694,0.8325,0.5763,1.0317
+Llama-3.1-8B-Instruct LoRA (OSDG-trained),trained / pre-trained,600,-,0.6717,0.7850,0.6330,0.8213,0.5404,1.0133
+"meta-llama-3.1-8b-instruct  [zero-shot, first 600 words]",plain LLM (LM Studio),600,0.0%,0.0500,0.7517,0.5457,0.7296,0.5581,1.9933
+"qwen/qwen3.5-9b  [zero-shot, first 600 words]",plain LLM (LM Studio),600,0.0%,0.3517,0.9500,0.6280,0.5833,0.7376,1.9917
+"google/gemma-4-12b-qat  [zero-shot, first 600 words]",plain LLM (LM Studio),600,0.0%,0.0850,0.9567,0.5540,0.4613,0.7527,2.6533

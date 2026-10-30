@@ -1,0 +1,11 @@
+Setting,Model,Metric,Value
+A: OSDG (unfiltered test),RoBERTa-base (fine-tuned),documents,"5,374"
+A: OSDG (unfiltered test),RoBERTa-base (fine-tuned),error rate,17.8%
+A: OSDG (unfiltered test),RoBERTa-base (fine-tuned),errors where gold SDG is 2nd best,50.8%
+A: OSDG (unfiltered test),RoBERTa-base (fine-tuned),mean agreement: errors vs correct,0.57 vs 0.77
+A: OSDG (unfiltered test),RoBERTa-base (fine-tuned),error rate: truncated vs not truncated,12.5% vs 17.8%
+B: SDGi (English test),TF-IDF + LR (SDGi-trained),documents,965
+B: SDGi (English test),TF-IDF + LR (SDGi-trained),aggregation,full document
+B: SDGi (English test),TF-IDF + LR (SDGi-trained),exact-match rate,68.7%
+B: SDGi (English test),TF-IDF + LR (SDGi-trained),exact match: single-label vs multi-label docs,77.7% vs 3.4%
+B: SDGi (English test),TF-IDF + LR (SDGi-trained),exact match: beyond vs within chunk budget,89.9% vs 64.8%

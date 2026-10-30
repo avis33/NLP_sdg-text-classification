@@ -1,0 +1,13 @@
+Model,aggregation,threshold,micro_f1,macro_f1,macro_AP
+RoBERTa-base (OSDG-trained),first,0.16,0.6007,0.5996,0.6241
+RoBERTa-base (OSDG-trained),max,0.97,0.5524,0.5557,0.5525
+RoBERTa-base (OSDG-trained),mean *,0.34,0.6196,0.6223,0.6106
+RoBERTa-base (SDGi-trained),first *,0.42,0.7385,0.7287,0.7932
+RoBERTa-base (SDGi-trained),max,0.97,0.6861,0.6849,0.6625
+RoBERTa-base (SDGi-trained),mean,0.37,0.7399,0.729,0.777
+sdgBERT (off-the-shelf),first *,0.14,0.5992,0.5933,0.6488
+sdgBERT (off-the-shelf),max,0.97,0.5613,0.5584,0.5597
+sdgBERT (off-the-shelf),mean,0.37,0.6256,0.62,0.6302
+Qwen3.5-9B LoRA (OSDG-trained),first *,0.29,0.6779,0.6787,0.7418
+Qwen3.5-9B LoRA (OSDG-trained),max,0.98,0.6416,0.6326,0.6207
+Qwen3.5-9B LoRA (OSDG-trained),mean,0.41,0.6558,0.6546,0.6914

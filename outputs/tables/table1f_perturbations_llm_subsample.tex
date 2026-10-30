@@ -1,0 +1,11 @@
+\begin{tabular}{lrrrrrrrrrr}
+\toprule
+ & n & TF-IDF + LR & RoBERTa-base (fine-tuned) & sdgBERT (off-the-shelf) & Qwen3.5-9B LoRA (fine-tuned) & Gemma-4-12B-QAT LoRA (fine-tuned) & Llama-3.1-8B-Instruct LoRA (fine-tuned) & meta-llama-3.1-8b-instruct  [zero-shot] & qwen/qwen3.5-9b  [zero-shot] & google/gemma-4-12b-qat  [zero-shot] \\
+g &  &  &  &  &  &  &  &  &  &  \\
+\midrule
+original & 100 & 0.840 & 0.840 & 0.950 & 0.910 & 0.870 & 0.890 & 0.640 & 0.840 & 0.890 \\
+remove 3 top TF-IDF terms & 100 & 0.670 & 0.740 & 0.870 & 0.830 & 0.820 & 0.820 & 0.530 & 0.740 & 0.760 \\
+remove 3 random words & 100 & 0.840 & 0.850 & 0.960 & 0.910 & 0.880 & 0.880 & 0.670 & 0.800 & 0.900 \\
+all & 300 & 0.783 & 0.810 & 0.927 & 0.883 & 0.857 & 0.863 & 0.613 & 0.793 & 0.850 \\
+\bottomrule
+\end{tabular}

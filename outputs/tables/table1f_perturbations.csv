@@ -1,0 +1,5 @@
+g,n,TF-IDF + LR,RoBERTa-base (fine-tuned),sdgBERT (off-the-shelf),Qwen3.5-9B LoRA (fine-tuned),Gemma-4-12B-QAT LoRA (fine-tuned),Llama-3.1-8B-Instruct LoRA (fine-tuned),meta-llama-3.1-8b-instruct  [zero-shot],"meta-llama-3.1-8b-instruct  [few-shot, 2/SDG]",qwen/qwen3.5-9b  [zero-shot],"qwen/qwen3.5-9b  [few-shot, 2/SDG]",google/gemma-4-12b-qat  [zero-shot],"google/gemma-4-12b-qat  [few-shot, 2/SDG]"
+original,200,0.85,0.865,0.935,0.9,0.88,0.885,0.6,0.62,0.785,0.875,0.87,0.9
+remove 3 top TF-IDF terms,200,0.64,0.77,0.84,0.845,0.83,0.825,0.455,0.565,0.675,0.78,0.755,0.83
+remove 3 random words,200,0.85,0.87,0.94,0.9,0.88,0.88,0.62,0.61,0.78,0.88,0.87,0.87
+all,600,0.78,0.835,0.905,0.882,0.863,0.863,0.558,0.598,0.747,0.845,0.832,

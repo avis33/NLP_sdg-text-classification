@@ -1,0 +1,813 @@
+gold,pred,p_pred,agreement,text,setting,gold_sdgs,pred_sdgs,missed (FN),spurious (FP)
+15.0,16.0,0.99858814,1.0,"Communication, education and public awareness are critically important, together with the need for transparent information about the state and trends of ecological, economic, social and cultural/spiritual dimensions of landscapes as social-ecological systems. The term landscape approach captures this and can be operationalized by applying concepts such as Model Forest, Biosphere Reserve, and traditional village systems. In this paper we advocate an approach that supports communication, education and public awareness and that relies on landscapes as laboratories for learning and knowledge production. We stress that to implement policies about sustainable development and sustainability, the context of landscapes in terms of environmental history, biophysical conditions, cultural heritage and modes for government and governance in the landscape need to be considered.",A (confident errors),,,,
+1.0,4.0,0.9981096,0.2,"Students trained to become teachers often obtain very low scores, compared with other students, on cognitive tests such as Saber PRO (Baron and Bonilla, 2011). Third, despite recent reforms introducing some elements of performance-based compensation and promotion, and the possibility to fire low-performing teachers, there is still a high degree of teacher absenteeism (estimated at 10% on average, and reaching 40% in rural areas). Experience in India suggests that monitoring coupled with financial incentives based on teacher attendance can reduce teacher absence and raise educational outcomes (Duflo et al.,",A (confident errors),,,,
+1.0,4.0,0.9980793,0.25,"This would require reducing the prevalence of two- or even three-shift schools by investing in school infrastructure. This would also require reducing teacher absenteeism by introducing a monitoring system coupled with financial incentives. In the case of poor results, apply the recently introduced performance incentive system for teachers’ remuneration, placement and firing more consistently.",A (confident errors),,,,
+3.0,4.0,0.9979796,0.3333333333333333,"Among these indicators, only three - natural daylight in classrooms, quality of cleaning and its frequency, and separation of classrooms for primary school students - met the requirements. The other indicators - floor space per child, suitability of desks and chairs to a child's age and body, classroom microclimate, and indoor air quality - did not comply with the standards. For 38.8 per cent of all schools, the floor space per student is 2.8 times smaller than the required standard of 1.5 m2 per child, while for 22.2 per cent of the assessed schools the number of students per classroom exceeded the maximum allowed level. These items were too small or too narrow for the child’s age and body.",A (confident errors),,,,
+10.0,3.0,0.9979169,1.0,"Although it is difficult to measure, the difference in the health care system between rural and urban areas accounted for much of rural-urban disparities. Under the auspices of the New Co-operative Medical System (NCMS), the government instituted a new system of risk-pooling for China’s vast rural population. The NCMS includes three features that distinguish it from the Rural Co-operative Medical System: joint responsibility for financing, local responsibility for many aspects of programme design, implementation, and management, and voluntary participation.",A (confident errors),,,,
+8.0,4.0,0.9978409,0.2,"Second-chance schools should contact school drop-outs as early as possible and encourage them to enrol. These schools cater for students who have become disaffected with mainstream education by providing essential basic skills through interdisciplinary and more practical learning methods, but enrolments need to be encouraged and early action is key. One way to do so would be to offer youth without qualifications who have been NEET for some time a small allowance in exchange for the commitment to attend education, training or some form of work-based learning. A scheme along these lines - the Activity Agreement - is currently being piloted in the United Kingdom and this could serve as a model for Greece.",A (confident errors),,,,
+10.0,4.0,0.9978357,0.5555555555555556,"Despite a 92% enrolment rate in education up to age 14, Brazilian youths still underpcrform their peers from other countries significantly in terms of competencies (Figure 16). This suggests that the bottleneck is no longer access but quality. The quality of public secondary schools tends to be lower than that of private schools, resulting in easier access to high-quality public tertiary education for graduates from private secondary schools.",A (confident errors),,,,
+3.0,16.0,0.997797,1.0,"Section 1.2 of this introductory chapter discusses what patient safety and patient harm mean when applied to primary and ambulatory care. This reflection is necessary because safety and harm are traditionally approached in the context of acute care. Owing to the fundamental differences between acute services and primary/ambulatory care, the definitions and concepts need to be refined for the purpose here. Chapter 2 examines the occurrence, frequency and severity of safety lapses in primary and ambulatory care. It explores different avenues for capturing patient harm in primary and ambulatory care settings, shedding light on shortcomings of methodologies, knowledge gaps and the main causes of harm. At the margin, the cost of preventing every last case of harm would approach, and eventually exceed, the costs of failure, principally because - in a system with finite resources - beneficial activity would need to be diverted, or stopped altogether, in order to remove all risk (see section 1.2).",A (confident errors),,,,
+10.0,3.0,0.99774396,0.7777777777777778,"The 1988 constitution established health as a fundamental right and the responsibility of states, which resulted in increased access to primary and emergency care, in addition to achieving universal coverage of vaccination and prenatal care (Paim et al, 2011). Service delivery is strongly decentralised, which has led to a fragmentation in the delivery of services and inequalities in the distribution of health system resources, as not all municipalities are capable of delivering services to people and economies of scale are often not exploited sufficiently. Brazil’s public sector invests about 4% of GDP in health, compared to almost 6.5% of GDP in OECD countries. This shortage of medical staff leads to insufficient access to basic health care services. Despite recent increases in training capacity, Brazil is currently not training enough doctors and nurses to keep up with demand. The measure to require new medical graduates to serve in the SUS for two years before their degree becomes officially valid - discussed in July 2013 - can be useful if supervision is ensured, as it would boost the number of doctors available to the public system in the short term.",A (confident errors),,,,
+10.0,4.0,0.99771416,0.7777777777777778,"Children from disadvantaged family backgrounds that are at risk of receiving less attention than others during their early childhood years can benefit particularly strongly from ECE enrolment. For this reason, ECE also improves the equality of opportunities and strengthens social mobility. A lack of funding is one of the reasons for low enrolment rates, although federal funding is available to support the current expenditures of operating childcare centres and building pre-schools has been one element of the infrastructure programme PAC2. In addition, the federal Prolnfancia programme provides financial support for the costs of building and equipping childcare centres. It has so far funded over 2000 centres and provided resources to equip several hundred more (Evans and Kosec, 2012). Federal support for ECE should be continued and expanded to reach the ambitious objective of the new National Education Plan (PNE) of achieving universal enrolment of 3 and 4-year-olds by 2016.",A (confident errors),,,,
+,,,,"94 95
+3.7
+Decent Work 
+and Sustainable 
+Economy
+ 10 Diversity and equal opportunities in admin￾istration, municipal undertakings and associa￾ted companies
+Bonn has promoted equal opportunities and 
+diversity within the city administration for many 
+General Introduction to the 
+Field of Action
+The feld of action Decent Work and 
+Sustainable Economy encompasses 
+local economic and labor market 
+development and the situation of 
+employees at their place of work. A 
+functioning economy with suffcient 
+jobs enables people to satisfy their 
+basic needs and develop their poten￾tial. In this context, the creation of 
+family- and employee-friendly struc￾tures and the promotion of diversity 
+and equal opportunities is a central 
+task. Simultaneously, it is essential 
+to promote a sustainable business 
+location in a community and encou￾rage innovation in this area. With a 
+view to sustainable development, 
+companies have an important eco￾logical and social responsibility 
+toward society. This includes imple￾menting sustainable production pat￾terns and creating and safeguarding 
+adequate working conditions. Demo￾graphic change and the associated 
+consequences—along with advancing 
+digitization, which is leading to pro￾found changes in the labor market—
+require special attention with regard 
+to economic development.
+Qualitative Aspects
+• Family and child-friendly structures 
+and offers
+• Compatibility of family and career in 
+administration, municipal undertakings 
+and associated companies
+• Diversity and equal opportunities in 
+administration, municipal undertakings 
+and associated companies
+• Sustainable management of resident 
+companies 
+• Sustainability-oriented start-up and 
+business development
+Practical Examples
+• Project “Sustainability Hub”
+• Climate-friendly industrial park Beuel-Ost
+SDG indicators
+• Gross Domestic Product 
+• Long-term unemployment rate 
+• Employment rate15 to 64 year olds / 
+55 to 64 year olds / foreigners
+• Employed persons receiving 
+unemployment beneft 
+• Highly qualifed employees at the 
+place of work
+Add-on indicators (City of Bonn)
+• Unemployed people 
+• Youth unemployment 
+• Job density 
+• Eco-certifed companies
+SDG 5
+SDG 8
+SDG 9
+SDG 10
+SDG 12
+SDG 13
+Decent Work &
+Sustainable
+Economy
+
+96 97
+years. Above all, the Equality Plan 2019–2022
+prepared by the Equal Opportunities Offce and 
+the Personnel and Organization Offce provides 
+the basis for this. In accordance with Bonn‘s Sus￾tainability Strategy, the equality plan is to be con￾sidered in all personnel and structural measures, 
+and the city‘s personnel development concept is 
+to be consistently implemented, evaluated, and 
+updated. The 2021 Report on the Equality Plan
+states that the proportion of women in the city 
+administration has risen to almost 60%. Women 
+are specifcally targeted for jobs in which they are 
+underrepresented. In the context of job advertise￾ments, people with a migration background are 
+explicitly encouraged to apply. Furthermore, in 
+2021, the Guideline Gender-Equitable Language
+of the city administration was published, support￾ing respectful and non-discriminatory language. 
+One example of the promotion of equal oppor￾tunities in the owned and associated compa￾nies is a Stadtwerke initiative through which 
+employees who can no longer perform their 
+previous jobs for health or other reasons are 
+given targeted support. In this way, employees 
+can qualify themselves to take on new tasks.
+3.7
+Project Sustainability Hub
+Bonn’s city council passed a resolution in 2021 to es￾tablish a Sustainability Hub and provide 250,000 euros 
+as start-up funding for this purpose. Project manage￾ment is located in the Offce of Economic Development, 
+and the project is initially scheduled to run for two 
+years. The institutions involved in the city administra￾tion have agreed that focusing the Sustainability Hub 
+on existing companies, startups, institutional partners, 
+and multipliers is the most suitable way to fulfll the 
+scheme’s objectives. Even though a steadily increasing 
+number of startups and companies with sustainable 
+business models, products and services are already 
+successful in Bonn and numerous companies are 
+implementing sustainability concepts, there is a lack 
+of external impact, bundling, and networking. The 
+Sustainability Hub will provide new impulses to and 
+from the business community and act as a local and 
+supra-regional mouthpiece for a sustainable economy 
+in Bonn. Synergy opportunities with institutions from 
+science and other sustainability initiatives in the city, 
+such as the Bonn4Future participation process, are to 
+be initiated and promoted.
+Climate-friendly industrial park Beuel-Ost
+In 2021, Bonn launched a model project in one of the 
+city‘s largest and oldest established commercial areas, 
+Beuel-Ost, in collaboration with the engineering frm 
+Gertec and the Wissenschaftsladen Bonn. Together 
+with interested local companies, the project identifes 
+how the area can be further developed in a climate- and 
+sustainability-friendly way. Key elements are potential 
+checks and the initiation of measures for a higher loca￾tion quality and a better open space structure, optimized 
+energy consumption, and better energy generation uti￾lization. To this end, talks are being held with potential 
+model companies. In addition, around 30 company rep￾resentatives from Beuel-Ost were presented with con￾sulting services by the project partners during a meeting 
+at the business park. These include, for example, offers 
+relating to greening, thermal insulation, electromobility, 
+photovoltaics, energy procurement and effciency, re￾source effciency, and waste management. The project‘s 
+overall aim is for local companies to get to know each 
+other better and thus create a network for the long-term 
+continuation of climate and sustainability activities in 
+the area. Due to its successful start, the project is to 
+be continued in the coming years, and the activities will 
+be extended to other industrial estates in Bonn.
+Practical examples",B (wrong sets),10,8,10,8
+,,,,"41
+Upgrading the insttutonal framework of vocatonal training (SDG 4.4)
+Currently, Greece faces a dual challenge; frst to provide efectve support to a large number of 
+long-term unemployed persons in order to enhance their employability and ofer opportunites 
+for work experience, and second to modernise the design and implementaton of actve labour 
+market policies. This is an important challenge since the needs of the unemployed and young 
+NEETS are great and complex, while resources are limited. Actons are currently under way in 
+order to upgrade the insttutonal framework of vocatonal training aiming mainly at a profound 
+reform. The goals and key principles of the new system’s organisaton shall be the following: 
+(i) linking training programmes to the country’s growth potentals through the mechanism to 
+identfy labour market needs; (ii) exploring the possibility of increasing the training insttutons 
+involved, i.e. by including universites etc.; and (iii) ensuring quality for the entre system (train￾ers, curricula, training material, infrastructure, assessment and certfcaton processes).
+A number of legislatve means have been adopted, such as law 4430/2016 on improving the 
+methods for the integraton of the unemployed into the labour market, which provides (artcle 
+56, as amended by artcle 11 of law 4455/2017) that the unemployed persons registered with the 
+OAED, who intend to partcipate in educatonal or vocatonal training programmes, shall remain 
+registered with the OAED as unemployed and the tme spent for their educaton or vocatonal 
+training shall be considered as period of unemployment, provided that they meet the conditons 
+of the same artcle.",B (wrong sets),4,8,4,8
+,,,,"18
+With regard to social programs aimed at reducing hunger, and in this sense 
+focused on atacking extreme poverty, the Government of the Province of 
+Córdoba, through its various Ministries, carries out Social Programs with the aim of 
+providing support and accompaniment to each of the people of Córdoba in 
+vulnerable situations. These programs are designed in a comprehensive manner to 
+accompany each citizen throughout the life cycle.
+One of the fundamental characteristics of the management of social benefits to reduce extreme poverty 
+in the province is the articulation of the diferent programs with the various social actors, such as civil 
+organizations, municipalities, private sectors, business sectors, universities, among others, in permanent 
+dialogue with the Provincial Social Cabinet, favoring the construction of a social network that feeds back 
+and generates growth.
+Within this framework, one of the main governmental actors in the development of direct assistance 
+programs for SDG 2 is the Ministry of Social Development of the Province of Córdoba. This area is 
+responsible for the assistance, prevention and promotion of the human rights of individuals and families 
+who need it most and who are in a situation of vulnerability throughout the province. 
+From an integral perspective, it carries out the following programs: 
+SOCIAL CARD
+This is a program aimed at 
+assisting families in the Province 
+of Córdoba whose income is 
+below the value of the Basic 
+Food Basket to provide for the 
+improvement of their health and 
+human development through 
+adequate food, guaranteeing in a
+first stage, access to a minimum 
+food level that meets the 
+essential nutritional 
+requirements. A monetary 
+transfer is made on a monthly 
+basis. During 2021, 45,347 social 
+cards were delivered.
+FOOD ASSISTANCE PROGRAM 
+FOR VULNERABLE GROUPS
+In relation to the food issue, 
+assistance is also provided to 
+Vulnerable Groups. It is aimed at 
+biologically and socially at-risk 
+populations such as oncology 
+and HIV positive patients who 
+do not have social security. The 
+objective is to guarantee access 
+to products that make up the 
+basic family basket, for which a
+monthly economic aid is 
+transferred. 
+PROVINCIAL CELIAC CARE 
+PROGRAM
+With the aim of providing the 
+patient with the possibility of 
+consuming food free of 
+components that are harmful to 
+health. It is aimed at people with 
+coeliac disease in a situation of 
+socio-economic vulnerability, 
+with no age limit. The transfer is 
+carried out in the form of 
+delivery of modules or economic 
+transfer. 
+FOOD MODULES
+Since the beginning of the pandemic, the delivery of food and milk 
+modules has been reinforced. These resources were delivered to 
+families requesting food aid as well as to soup kitchens, canteens 
+and milk cups. More than 95,000 food modules and more than 
+30,000 units of powdered milk were delivered in the area of 
+Córdoba City and Greater Córdoba.
+Voluntary Local Review CÓRDOBA 2022 | Province of Córdoba | ARG.
+
+19
+INTEGRAL ASSISTANCE PROGRAM OF CÓRDOBA 
+(P.A.I.COR for its acronym in Spanish)
+Program for children and young people in need 
+who atend educational institutions with a double 
+purpose: to contribute to the inclusion and 
+permanence in the formal educational system; and 
+to the adequate growth and development of the 
+school population in a situation of vulnerability. To 
+this end, food assistance is provided and the aim is 
+to promote healthy eating habits. This is an action 
+of the General Secretariat of the Government. 
+During 2021, the program provided comprehensive 
+assistance to 312,885 beneficiaries and 3,249 
+canteens.
+MORE MILK, MORE PROTEINS
+In order to address the nutritional aspect in the 
+early years, the More Milk, More Proteins program 
+is implemented, which aims to ensure the 
+nutritional quality of children in the province of 
+Córdoba from birth until they finish primary 
+school, to promote their growth, development, 
+health, food security and school performance. The 
+program provides whole and formula milk to 
+children from 0 to 11 years of age belonging to 
+vulnerable sectors. The implementation of the 
+program involves the articulation of the Ministry 
+of Social Development, municipalities, communes 
+and has the technical assistance of the Ministry of 
+Health and the Ministry of Education. Enrolment 
+takes place through schools, day care centers, 
+municipalities, health centers and digital citizens. 
+A unified register of beneficiaries is created in 
+which there is no duplication of records. The 
+distribution of supplies is carried out monthly, 
+through a logistics service, in municipalities, 
+communes and day care centers. Delivery points 
+are established in towns in the province of 
+Córdoba and neighborhoods in the capital city (in 
+the case of NGO day-care centers). This program 
+benefited 252,394 children from 0 to 11 years of 
+age.
+Voluntary Local Review CÓRDOBA 2022 | Province of Córdoba | ARG.",B (wrong sets),2,"1, 2",,1
+,,,,"34 Voluntary Local Review 2022 | City of Düsseldorf 35 Thematic fields for Municipal Sustainability
+dorf´s Membership in the “Climate-Positive 
+Cities” initiative of the German Sustainable 
+Building Council also contributes to this.
+ 13 Climate protection in administration, 
+municipal undertakings and associated 
+companies
+The Düsseldorf city administration—with over 
+10,000 employees and over 2,000 buildings—
+and the municipal subsidiaries and associated 
+companies act as role models in climate pro￾tection. For example, a “solar offensive” has 
+been in place for municipal buildings since 2021 
+(see practical example). This project is intended 
+to increase signifcantly the number of solar
+installations in place. Energy-effcient renovation
+measures are increasingly being promoted 
+(e.g., as part of the “Renovation of the 20 worst 
+properties in terms of energy effciency” pro￾ject). Energy management, including energy￾management software for all energy-relevant 
+processes, contributes to increasing energy 
+effciency. Various public institutions and muni￾cipal affliated companies (or enterprises)
+also participate in the environmental manage￾ment system Ökoproft to reduce operational
+emissions (e.g., the Environmental Agency, 
+the City Museum, Messe Düsseldorf, Stadtent￾wässerungsbetrieb, Industrieterrains Düssel￾dorf-Reisholz AG and Werkstatt für angepasste 
+Arbeit). 
+Overall, the implementation planning for the
+climate protection of municipal associated 
+companies (or enterprises) is to be advanced in 
+accordance with the Path to Climate Neutrality 
+2035. The municipal associated companies (or 
+enterprises) and municipal enterprises have 
+frmly fxed climate protection in their corporate
+structures. This policy applies to the installa￾tion of photovoltaic systems (e.g., at Stadtwerke 
+Düsseldorf, Messe Düsseldorf, Gesellschaft für 
+Abfallwirtschaft und Stadtreinigung AWISTA, In￾dustrieterrains Düsseldorf-Reisholz AG, Rhein￾bahn, the airport and Werkstatt für angepasste 
+Arbeit) or the purchase of green electricity or 
+abandoning fossil fuels (e.g., at Immobilien Pro￾jekt Management Düsseldorf, Bädergesellschaft 
+ 13 Climate protection in the municipality
+With its Path to Climate Neutrality (Resolution
+“Climate Emergency“ 2035), the City of Düssel￾dorf has set itself the ambitious goal of being 
+climate-neutral by 2035, and thus becoming the
+ “Climate Capital.” Accordingly, annual per ca￾pita CO₂ emissions are to be reduced to a max￾imum of two tons. To this end, a climate pro￾tection budget of 60 million euros per year was 
+set up and a “Small Climate Aid Commission” 
+established. The regular recording of emissions 
+in the city as a whole is conducted via the mu￾nicipal energy and CO₂ balance sheet in accor￾dance with the basic principles of the Climate 
+Alliance. 
+With the Climate Protection Concept 2025, the 
+city has an action program for short- to medi￾um-term realization, as well as long-term op￾tions for action up to the year 2050 (“Master 
+Plan 2050”). The Concept defnes seven strategy
+pillars with 69 individual measures. The pillars 
+are as follows: (1.) energy-saving construction 
+and renovation in residential buildings; (2.) 
+energy supply and infrastructure, as well as re￾newable energies; (3.) energy effciency in
+trade, commerce and services; (4.) education; 
+(5.) role model Group City of Düsseldorf; (6.) 
+climate-friendly mobility; and (7.) lifestyle and 
+consumption.
+A wide variety of projects contribute to achie￾ving the climate protection goals, such as ener￾gy-effcient building refurbishment with the
+municipal funding program “Climate-Friendly
+Living and Working in Düsseldorf“ and advice 
+on refurbishment options provided by the Ser￾vice Agency for the Refurbishment of Old
+Buildings (see practical example). Other exam￾ples include the climate campaign, which 
+uses various high-profle approaches (such as a
+climate savings book) to motivate the popu￾lation to protect the climate, and the decision for 
+the city administration to purchase 100% green 
+electricity. Against the backdrop of all climate 
+protection activities, Düsseldorf was continu￾ously awarded the European Energy Award from 
+2007 (several times in gold) to 2020. Düssel-
+
+36 Voluntary Local Review 2022 | City of Düsseldorf 37
+Düsseldorf, Rheinbahn AG, Messe Düsseldorf 
+or D.LIVE). Various companies also implement 
+strategic energy-management systems to 
+reduce electricity consumption and heating 
+energy requirements (e.g., Bädergesellschaft 
+Düsseldorf or Messe Düsseldorf). The SWD 
+Städtische Wohnungsgesellschaft Düsseldorf 
+(SWD Group) promotes climate protection in 
+a targeted manner by means of effciency house
+standards (both for new buildings and for the 
+refurbishment/modernization of existing stock), 
+built a climate protection housing estate in 
+NRW and implements various district heating 
+projects. Düsseldorf Airport has set itself the 
+goal of operating in a climate-neutral manner 
+by 2035, analogous to the City of Düsseldorf, and 
+of achieving “net zero” by 2050. Since 2019, in 
+addition to an energy-management system with 
+predictive control, the airport has been using 
+environmentally friendly district heating for its 
+building heating and has been purchasing green 
+electricity since the beginning of 2022. Stadt￾sparkasse Düsseldorf is also pursuing the goal 
+of climate neutrality by 2035 as part of its volun￾tary commitment to climate-friendly and sustain￾able business practices. Messe Düsseldorf has 
+joined the Net Zero Carbon Events initiative, with 
+the aim of halving its emissions by 2030.
+ 13 Embedding climate protection in spatial 
+planning and development
+With the solar offensive in urban planning, the 
+Council of the City of Düsseldorf instructed 
+the administration to include the installation of 
+photovoltaic systems on the roof and/or facade 
+in tenders for the sale or lease of municipal 
+properties, and to integrate them in the sales 
+or lease agreements. In the context of develop￾ment plans and urban development contracts, 
+all possibilities should be used to make the in￾stallation of photovoltaic systems mandatory. 
+Building permit (new construction and roof 
+renovation) applicants will be offered free advi￾ce on the use of solar energy. As a matter 
+of principle, environmentally relevant aspects 
+will be included in building applications and
+planning procedures (such as urban develop￾ment competitions, development plans and 
+traffc planning) and in investor consultations.
+Contractual partners must undertake to partici￾pate in a consultation meeting at the state
+capital in the Offce for Consumer Protection,
+Municipal Climate Management Department, on
+the topics of electromobility (charging infras￾tructure), achieving energy-effcient buildings,
+climate adaptation and food risks. An early
+consultation before implementing the § 4 I Bau￾gesetzbuch in the development plan proce￾dure is mandatory. The specifcation of energy
+standards in urban development contracts
+ensures that new buildings meet or, if necessary,
+exceed current energy standards in accordance 
+with the Building Energy Act.
+3.1
+PHOTO: Energy saving through energy-efficient renovation of municipal buildings 
+and the promotion of renovation of old buildings by private individuals",B (wrong sets),13,"7, 13",,7
+,,,,"Citizen Science weather and climate
+
+61
+INSPIRING GHENT PROJECTS: CITIZEN SCIENCE WEATHER AND CLIMATE
+What? 
+Citizen science is a specific collaboration between science and society, such as 
+citizens, volunteers and schoolchildren. Together, they are responsible for data 
+collection, measurements, tests or calculations. A well-known example is the bird 
+counts that citizens carry out in their gardens. 
+It is not an easy form of research, as it requires both an enthusiastic group of 
+triggers and a large participant group. Sound guidance throughout the process is 
+important. 
+A fine example of citizen science is UGhent's VLINDER project. This project involves 
+collaboration with schools that help collect data on the climate in the city and the 
+countryside. This citizen science project is an extension of the MOCCA network with 
+professional weather stations in Ghent. UGhent draws both projects as the city's 
+largest knowledge institution. The City of Ghent is a partner and limits its role to 
+supporting a few weather stations and participating schools in Ghent. 
+Why? 
+Weather and climate are of major importance in our contemporary society. Powerful 
+supercomputers allow for increasingly accurate weather forecasts and to that end, 
+local weather measurements are becoming increasingly important. 
+Land use a!ects the atmosphere. With the ever-increasing resolution of atmospheric 
+models, it becomes important to better understand this interaction. But reliable 
+weather observations are usually limited to weather stations in very open and rural 
+environments. The VLINDER project, operational since December 2019, is changing 
+this and has provided a measurement network in highly diverse environments 
+ranging from rural and urban centres to industrial sites and forests. As researchers, 
+it is impossible to organise this on such a scale on our own. Hence, the VLINDER 
+project calls on schools to set up weather stations in a wide variety of environments. 
+Students from participating schools will look for suitable locations, build the 
+weather stations and analyse the measurements.
+VLINDER project at the Flemish level 
+In this citizen science project, Flemish schools, researchers and local partners use a 
+network of 70 weather stations to monitor the weather in the areaand where no data 
+is available today.
+Today, the VLINDER measurement network features 70 measurement points in very 
+di!erent landscapes. The measurement sites are chosen to represent all Flemish 
+and Brussels landscapes. Some VLINDER stations are located in highly urbanised and 
+industrial environments, but there are also weather stations in dunes, forests and 
+lakes. Many locations were established thanks to collaborations between schools, 
+local authorities and businesses. In Ghent, four secondary schools participate: 
+GO Atheneum Gentbrugge, Sint-Barbara, Secundair Kunstinstituut and Einstein 
+Atheneum Oostakker.
+The VLINDER project was initiated with funds (2018-2020) from the Department of 
+EWI within the call for citizen science. To make the project as successful as possible, 
+it is supported by several partners with extensive scientific, technological and/
+or educational expertise. Since December 2020, a""ter completion of the first year 
+of measurements, the measurements will continue under the name Butterfly 
+2.0 in places where there is local interest and support. These are o""ten cities, 
+municipalities or companies that support a local VLINDER weather station in order to 
+continue the measurements for at least 1 more year. Local sponsors have access to 
+the data, are listed in the weather station and are kept informed about the further 
+progress of the project .
+
+62
+INSPIRING GHENT PROJECTS: CITIZEN SCIENCE WEATHER AND CLIMATE
+MOCCA project at Ghent level 
+The local climate in a city shows significant di!erences from the surrounding rural 
+area. A well-known example of this is the so-called urban heat island e!ect. To 
+specifically map out the urban climate in Ghent, in 2016 UGhent launched the unique 
+MOCCA (Monitoring the City's Climate and Atmosphere) project and installed a 
+network of weather stations in the city.
+Cities appear to be subject to the heat island e!ect. Especially during clear and 
+windless nights, they remain warmer than the surrounding countryside. Explanations 
+for this are that built-up areas store more heat than natural surfaces. The geometry 
+of buildings also complicates heat emission at night. This means less moisture and 
+consequently less evaporation in the city. Evaporation is an energy-consuming 
+process, leaving more energy to warm the air. Lower wind speed and more human 
+activity in the city are also associated with the generation of additional heat. 
+Warmer weather in the city sounds attractive, but it also has drawbacks. Persistent 
+warm periods can cause heat stress. This may lead to major health issues among 
+vulnerable groups. For instance, heat waves lead to more casualties than any other 
+meteorological phenomenon. Due to the heat island e!ect, heat stress in cities 
+requires extra attention.
+In order to study the urban climate in Ghent, automatic weather stations have 
+been installed in six locations. All stations are identical, which is important to 
+collect reliable data. The locations have been chosen to represent di!erent urban 
+environments. There is also 1 station in rural Melle to compare urban weather with 
+rural areas. The weather stations have been operational since July 2016.
+Who? 
+The Department of Physics and Astronomy at UGhent leads the VLINDER network. 
+The project is supported by dozens of local partners. These are mainly cities, 
+including the City of Ghent, municipalities, provinces and companies. But also 
+partners such as a golf club, nature reserves and a Rotary club. In addition, many 
+other scientific, educational and technological partners are also involved to keep the 
+project on track. The emphasis, however, is on cooperation with secondary schools.
+The MOCCA project is also an initiative by UGhent's Department of Physics and 
+Astronomy. They built and installed the weather stations and are responsible for 
+data processing. In addition, the observatory A. Pien has sponsored one of the 
+stations. Finally, the rain gauges on the weather stations have been lent by Farys. For 
+finding suitable locations, which is not obvious in an urban environment, six partners 
+were willing to cooperate. These are Honda Motor Europe Logistics, KMI, plant garden 
+Ghent, City of Ghent, Province of East Flanders and St-Bavo school. These partners 
+are regularly informed and involved over the course of the project.",B (wrong sets),13,"11, 13",,11
+,,,,"206
+SDG 8
+Circle 47.- This program aims to: Improve the sustainability of agricultural activities in the Merida police stations, by 
+linking producers to fair markets. Search:
+• Promote good agro-ecological practices that protect the environment and health.
+• Strengthen the economy of the Merida police stations through productive activities.
+• Facilitate access to quality local products for consumers.
+• Disseminate the natural and cultural heritage of the municipality.
+126 actions have been carried out, among which are:
+
+207
+Viewing 366 registered producers from the 47 police stations through the Geoportal, so that the public can 
+locate them by type of product or by area and contact them to conduct business without intermediaries. There is 
+also the Caja del Campo platform, through which you can buy, virtually, fruits, vegetables, miscellaneous, meats and 
+much more. https://cajadelcampo.com.mx/
+Workshops and training have been offered, an example of this has been the workshop for the production of 
+organic inputs, through the 11 bio factories installed, linking 21 local farms and clients, as well as the installation of 
+infrastructure to improve production, among other actions .
+In this program alliances have been made with different sectors of society such as: Canirac, the Yucatan 
+Agrifood Council, the Yucatan Cooks Collective, Slow Food, Secretariat for Research, Innovation and Higher 
+Education (SIIES for its initials in Spanish), Geo Center, Alliance by Cuxtal, School of Natural Resources of the 
+Universidad Marista and Veterinary Faculty of the Universidad Autónoma De Yucatán.",B (wrong sets),8,2,8,2
+,,,,"EQUAL SERVICES FOR A 
+CULTURALLY DIVERSE 
+POPULATION THROUGH 
+EXPERIMENTS
+An increasing number of Espoo residents have roots in different corners of the world. Slightly 
+less than one-fifth of all Espoo residents and one in every four first-graders speak a language 
+other than Finnish or Swedish as their native language. According to forecasts, the share of 
+Espoo residents with different linguistic and cultural backgrounds will grow to about 30% by 
+2030. New residents will be moving to Espoo for reasons relating to work, family and studies 
+as well as humanitarian reasons. 
+The increasing migration will require adaptation and flexibility from 
+the new residents, receiving communities and services alike. The 
+city’s task is to ensure the equality of all residents. Achieving equality 
+often requires paying special attention to the service needs of 
+minorities. 
+TIMELY AND FLEXIBLE SOCIAL AND HEALTH 
+SERVICES
+Residents with an immigrant background may have special needs 
+relating to their linguistic or cultural background in addition to other 
+service needs. Language barriers or other limitations may affect 
+their access to information as well as access to and use of services. 
+When immigrant residents are viewed as a group, the group relatively 
+often uses so-called heavier services, such as on-call services. 
+Some of the residents need guidance and advice to increase their 
+awareness of the service selection and help them use the services 
+preventively.
+Espoo is currently carrying out a priority project to respond to the 
+needs of diverse population groups in social and health services. 
+The goal is to make the services as timely and flexibly accessible as 
+possible. The project will strengthen the capabilities of personnel 
+to meet clients coming from various backgrounds and improve the 
+availability and usability of information that promotes prediction. The 
+development work involves associations and various units of the city.
+The project is implemented by means of dozens of experiments. The 
+experiments focus on low-threshold guidance and advice, address a 
+certain service need or are directed at a certain target group based 
+on age or language, for instance. For example, one of the goals of 
+an online service experiment for Arabic-speaking young people is to 
+respond to their culture-specific service needs. 
+Many experiments will improve the smoothness of service guidance 
+and the sharing of information between various parties. The project 
+includes the further development of a support service offered to 
+families with an immigrant background through the maternity and 
+child health clinic. The clinic’s task is to provide guidance and advice 
+for families expecting children and those with children under school 
+age. The aim is to prevent problems in advance by offering targeted 
+support in addition to regular examinations at the maternity and 
+child health clinic. 
+The accelerating demographic change will permanently influence the 
+city’s demographic structure, which is why long-term investments are 
+made in the development work. The project involves creating models 
+for catering to the needs of a highly diverse population group. In 
+addition, information will be compiled for the further promotion of 
+the development activities. 
+EQUAL STARTING POINTS FOR LIFE
+Everyone must have good starting points for life, further education 
+and work. According to research, young people with an immigrant 
+background are at bigger risk of becoming excluded from working life 
+and education than the native population are, and they experience 
+more loneliness and bullying. Particular attention must be paid to 
+the social mobility of children of immigrant families. In practice, this 
+means, for example, enhancing the opportunities of children from 
+low-income families to improve their socio-economic status through 
+education.
+Education has great significance in preventing social exclusion. 
+Accordingly, the city supports the growth, learning and well-being 
+of minority groups in various ways. To give everyone an equal 
+start to their school path, efforts are taken to increase the early 
+childhood education attendance of children with an immigrant 
+background. Various actions are taken to reduce the differences in 
+learning outcomes, and smooth transition from basic education to 
+upper secondary education is supported. Various experiments and 
+projects are carried out to find suitable activities to respond to the 
+accelerating demographic change.
+CULTURAL DIVERSITY IS RESOURCE
+The involvement of families in activities for children and young 
+people is important. Educational cooperation between parents 
+and early childhood education providers promotes the well-being 
+of children. Espoo also has cultural supervisors who support the 
+cooperation between educators and homes and the involvement 
+of families. They provide interpretation in various languages, guide 
+families and help teaching staff to deal with the challenges of families 
+coming from different backgrounds by, for example, organising 
+training to shed light on the education and parenting cultures of 
+various countries. In addition to everyday guidance, families are given 
+opportunities to learn about Finnish parenting and education. There 
+is a separate project that develops service guidance for immigrant 
+families together with the families.
+At schools and day-care centres, cultural diversity is seen as a 
+positive resource. Strengthening both the Finnish skills and native 
+language skills of children is an important part of their growth, 
+development and integration. Children’s native language is part of 
+their identity, and supporting its development also helps them learn 
+Finnish. In 2020, Espoo has hired language buddy employees as 
+additional personnel for day-care centres, particularly those centres 
+where over half of the children come from different linguistic and 
+cultural backgrounds. The language buddies help children learning 
+Finnish to take part in the activities and community. There is also a 
+music pedagogical project, which uses musical activities to support 
+children’s involvement and language learning. The intention is to 
+use the lessons learned from the experiments for modelling and 
+developing the activities.
+Children moving to pre-primary and basic education are offered 
+teaching in their native language in over 40 languages, mainly in the 
+afternoons, after the pre-school or school day. In addition, a project 
+experiment provides children with co-teaching in their own language 
+for those who need it. In this experiment, pupils receive teaching in 
+some subjects in native language in their own class at the same time 
+as the rest of the class is taught in Finnish. This teaching strengthens 
+the pupils’ skills in different subjects. 
+Education has great 
+significance in preventing 
+social exclusion.
+“
+Experiments focus on low￾threshold guidance and 
+advice, and address a certain 
+service need.
+40 41",B (wrong sets),"1, 3, 4, 8, 10","4, 10","1, 3, 8",
+,,,,"Mobility 15
+Mobility allows people to participate in social life. They need modes and means of transport such as 
+buses, trains, bicycles and cars to travel to work, go to school, visit friends and attend cultural and sport￾ing events. Mobility is vital to the economy as well – the manufacturing industry, haulage and the retail 
+sector rely on efficient transport infrastructures. Modern transport and environmental policies must 
+thus structure the mobility that society needs in such a way that both passenger and freight transport 
+are in line with and foster sustainable development. Crucial issues include climate protection, clean air 
+and protection from noise pollution. Reducing the use of land and resources and promoting alternative 
+drive systems are also important.
+How this topic contributes to the Agenda 2030
+When it comes to mobility, the City of Bonn is working to increase traffic safety and reduce air pollution 
+(SDG 3). Innovative commercial transport using alternative drive systems contributes both to sustainable 
+economic growth (SDG 8) and to sustainable consumption and production patterns (SDG 12). Modern 
+transport infrastructure lays the foundation for sustainable industry and innovation (SDG 9). In addition, 
+the topic of urban mobility is key to the promotion of sustainable cities and communities (SDG 11).
+City of Bonn
+Our mission statement 2030
+The City of Bonn is an international role model for sustainable mobility. Most people living in Bonn 
+choose to use the highly varied, well-connected, low-emission, climate-neutral transport services 
+on offer. Traffic avoidance has high priority.
+Our strategic 2030 goals
+In the municipal field of action “mobility”, the City of Bonn has prioritised four strategic goals 
+for the period up to 2030. Bonn intends to:
+ Promote emission-friendly mobility
+ Support environmentally-friendly public transport systems
+ Promote sustainable business traffic
+ Continuously expand bicycle traffic 
+1Mobility
+
+16 Mobility
+Peak hours: Mon.–Fri. from 
+07:00 to 12:00 and from 14:00 
+to 19:30, at least every 15 minutes 
+Off-peak hours: Mon.–Fri. from 20:00 
+to 23:00 and at weekends from 09:00 
+to 22:00, at least every 30 minutes
+1.3 Motor vehicle density Number of privately registered passenger vehicles 
+per 1,000 inhabitants 
+2016
+405.8
+2015
+404.9
+2017
+399.1
+2018
+399.9
+1.1 Access by bus and rail Percentage of inhabitants within a radius of less than 
+300 metres (straight-line distance) to an operational bus stop, 
+relative to the total population
+2016
+78.0
+87.4
+2017
+87.4
+78.0
+2018
+87.5
+78.1
+0
+1
+2
+3
+2015
+2.4
+2017
+2.4
+2016
+2.8
+2018
+3.0
+Motorised individual traffic (MIT) – single travellers MIV – with passengers Public transport (PT) Pedestrians Cyclists
+Mobility
+1.2 Bicycle traffic
+ Length of cycle paths in metres per metre of traffic routes
+1.4 Traffic accidents involving children Number of children injured or killed in traffic accidents 
+per 1,000 children under 15
+Rise in motor vehicle density
+in 2018 compared to 2017
++0.2%
+1.30 1.35 1.40 1.45 1.50
+2018 1.44
+2017 1.43
+2016 1.40
+2015 1.34
+1.5 Modal split (choice of transport mode)
+ Percentage of motorised individual, walking, cycling and public transport, relative to the total traffic volume (routes)
+Germany 
+2017
+43 10
+22
+14
+11
+Bonn
+29 31
+17
+28
+30
+16
+12
+12
+15
+13
+2017
+2008
+Rhein￾Sieg￾Kreis
+46 44
+20
+22
+10
+16
+8
+8
+17
+2017
+2008
+The statistic for all of Germany was 2.60 percent in 2018
+10",B (wrong sets),"3, 8, 9, 11, 12","3, 9, 11","8, 12",
+,,,,"68
+ 
+The Programa Municipal pela Primeira Infância - PMPI/São Paulo (Municipal Plan for Early Childhood) is aligned, 
+with regard to content, to the Sustainable Development Goals (SDGs). It shows the commitment that São Paulo has 
+towards the global sustainability agenda. As a consequence, the PMPI/São Paulo strategic areas and targets are 
+oriented for 2030 – as well as the SDGs – and its formulation encompassed, whenever possible and considering the 
+reality of the city of São Paulo, all the references to childhood present in the 17 SDGs. 
+In 2017, São Paulo was one of the frst cities to enforce a public policy for early childhood, besides allocating BRL 
+1.03 billion in resources in its 2019-2020 Program of Goals.
+The City Hall instituted the Plano Municipal pela Primeira Infância 2018-2030 (Plan for Early Childhood) (decree 
+nº 58.514/2018), with the following strategic areas: to ensure the conditions for intersectoral arrangement of the 
+programs, to implement projects and actions for early childhood, to provide all the children in early childhood with 
+education, care and resources that contribute to their full development, to assure protection and to give conditions 
+for exercise of rights and citizenship in early childhood and to ensure the right to life, health and good nutrition for 
+pregnant women and children in early childhood.
+From the Municipal Plan, the Municipal Program of Goals included the strategic goal (nº 14) “Reduce Vulnerability in 
+Early Childhood”, which states: reduce the vulnerability of children at the age from 0 to 6 in the 10 most vulnerable 
+districts for early childhood in the municipality by guaranteeing minimum care and implementation of strategies 
+under the Municipal Plan for Early Childhood.
+Municipal Plan for Early Childhood",B (wrong sets),"1, 2, 3, 4, 5, 6, 10, 11, 16","1, 2, 3, 4, 5, 6, 10, 11, 12, 13, 16",,"12, 13"
+,,,,"119
+Goal 10: Reduce inequality within and among countries
+Based on the 2019 National Survey on Living Standards, the poverty line (defined as half of the median 
+equivalent disposable income) in 2018 was 1.27 million yen, and the “relative poverty rate” (the percentage of 
+household members below the poverty line) was 15.4% (-0.3 percentage points compared to 2015 data). As part of 
+the integrated reform of social security and taxation that has been implemented since 2014, efforts have been made 
+to contribute to income redistribution through social security, such as reducing care insurance premiums for low￾income households. These measures have suppressed the increase in the relative poverty rate etc., but at the same 
+time, challenges in the lives of the poor remain. 
+The most urgent issue for the time being is to deal with those people and households who have been forced to 
+leave their jobs or face difficulties in their daily lives due to the COVID-19 pandemic. Accordingly, unprecedented 
+measures are being taken in terms of both labor and welfare, based on the actual situation, even for those who 
+were not covered by the existing system. However, it will be necessary to respond flexibly in terms of both labor 
+and welfare while keeping a close watch on future changes in the situation. It is also necessary to consider how to
+respond to similar risks in the future, while examining the state of support once the situation has settled down. In 
+the medium to long term, since there is a trend toward polarization in the distribution of savings, it is necessary to 
+continue to work to ensure that income redistribution through social security and other means functions properly 
+and that economic disparity does not widen. In order to prevent economic disparity from widening in the future, it 
+is important to continue our efforts to protect the livelihoods and jobs of persons and households in difficult 
+economic situations by properly understanding their employment and income situations, as well as their needs for 
+housing and livelihood support.
+
+120
+Change of Poverty rate
+Based on Table 11 in “Comprehensive Survey of Living Conditions, 2019” by Ministry of Health, Labor. The unit of value is percent. 
+Note that “Single-adult household with children” refers to working-age households there is only one adult with children.
+Hyogo pref. is not included in the value of 1994. 
+Kumamoto pref. is not included in the value of 2015. 
+The “new standard” for 2018 is the new standard of the OECD's Income Definition: revised in 2015, which subtracts “automobile tax, 
+light automobile tax and automobile weight tax”, “corporate pension contributions” and “remittance” from the existing disposable 
+income.
+The poverty rate is calculated based on the OECD's definition.
+“Adult” refers to persons aged 18 and over, “child” refers to persons aged 17 and under, and “working-age household” refers to 
+households with the head of household being between 18 and 65 years old.
+Household members with unspecified equivalent disposable income are excluded.
+0
+10
+20
+30
+40
+50
+60
+70
+1985 1988 1991 1994 1997 2000 2003 2006 2009 2012 2015 2018
+Child poverty rate Relative poverty rate Single-adult household with children",B (wrong sets),10,1,10,1

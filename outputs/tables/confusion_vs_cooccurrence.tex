@@ -1,0 +1,13 @@
+\begin{tabular}{lrlrl}
+\toprule
+ & rho (normalised) & p & rho (raw counts) & p (raw) \\
+Model &  &  &  &  \\
+\midrule
+TF-IDF + LR & 0.575 & 6.8e-12 & 0.553 & 5.7e-11 \\
+RoBERTa-base (fine-tuned) & 0.595 & 7.3e-13 & 0.584 & 2.6e-12 \\
+sdgBERT (off-the-shelf) & 0.549 & 8.7e-11 & 0.537 & 2.6e-10 \\
+Qwen3.5-9B LoRA (fine-tuned) & 0.620 & 4.3e-14 & 0.617 & 6.5e-14 \\
+Gemma-4-12B-QAT LoRA (fine-tuned) & 0.585 & 2.2e-12 & 0.541 & 1.8e-10 \\
+Llama-3.1-8B-Instruct LoRA (fine-tuned) & 0.628 & 1.6e-14 & 0.606 & 2.2e-13 \\
+\bottomrule
+\end{tabular}

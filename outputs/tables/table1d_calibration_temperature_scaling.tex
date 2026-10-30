@@ -1,0 +1,13 @@
+\begin{tabular}{llrrrrr}
+\toprule
+ & variant & T & accuracy & nll & brier & ece \\
+Model &  &  &  &  &  &  \\
+\midrule
+TF-IDF + LR & raw & 1.000 & 0.862 & 0.575 & 0.217 & 0.056 \\
+TF-IDF + LR & temp-scaled & 1.415 & 0.862 & 0.518 & 0.216 & 0.043 \\
+RoBERTa-base (fine-tuned) & raw & 1.000 & 0.891 & 0.487 & 0.187 & 0.074 \\
+RoBERTa-base (fine-tuned) & temp-scaled & 1.413 & 0.891 & 0.417 & 0.174 & 0.025 \\
+sdgBERT (off-the-shelf) & raw & 1.000 & 0.950 & 0.184 & 0.079 & 0.011 \\
+sdgBERT (off-the-shelf) & temp-scaled & 1.013 & 0.950 & 0.184 & 0.079 & 0.010 \\
+\bottomrule
+\end{tabular}

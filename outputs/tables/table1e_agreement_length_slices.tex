@@ -1,0 +1,18 @@
+\begin{tabular}{llrrrr}
+\toprule
+ &  & n & TF-IDF + LR & RoBERTa-base (fine-tuned) & sdgBERT (off-the-shelf) \\
+slice & value &  &  &  &  \\
+\midrule
+\multirow[t]{5}{*}{agreement_bin} & <.2 & 320 & 0.475 & 0.575 & 0.625 \\
+ & .2-.4 & 737 & 0.607 & 0.678 & 0.741 \\
+ & .4-.6 & 899 & 0.700 & 0.750 & 0.871 \\
+ & .6-.8 & 1065 & 0.838 & 0.872 & 0.960 \\
+ & >=.8 & 2353 & 0.874 & 0.905 & 0.950 \\
+\cline{1-6}
+\multirow[t]{4}{*}{length_bin} & Q1 (shortest) & 1344 & 0.700 & 0.771 & 0.856 \\
+ & Q2 & 1343 & 0.746 & 0.787 & 0.867 \\
+ & Q3 & 1343 & 0.815 & 0.858 & 0.905 \\
+ & Q4 (longest) & 1344 & 0.849 & 0.871 & 0.933 \\
+\cline{1-6}
+\bottomrule
+\end{tabular}

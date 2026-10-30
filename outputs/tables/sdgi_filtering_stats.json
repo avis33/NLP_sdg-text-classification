@@ -1,0 +1,33 @@
+{
+  "train": {
+    "raw_documents": 5880,
+    "documents_with_sdg17": 570,
+    "removed_weird_characters_or_too_short": 27,
+    "removed_suspicious_single_character_pattern": 4,
+    "after_corruption_filters": 5849,
+    "after_language_filter (en)": 4220,
+    "documents_before_common_label_restriction": 3587,
+    "removed_gold_labels_all_outside_common_SDGs": 200,
+    "final_documents": 3387,
+    "final_multilabel_rate": 0.11485090050191911
+  },
+  "test": {
+    "raw_documents": 1470,
+    "documents_with_sdg17": 163,
+    "removed_weird_characters_or_too_short": 27,
+    "removed_suspicious_single_character_pattern": 1,
+    "after_corruption_filters": 1442,
+    "main_language_documents_in_test (en)": 1041,
+    "documents_before_common_label_restriction": 1442,
+    "removed_gold_labels_all_outside_common_SDGs": 100,
+    "final_documents": 1342,
+    "final_multilabel_rate": 0.11698956780923994,
+    "final_main_language_documents": 965
+  },
+  "dev": {
+    "documents_before_common_label_restriction": 633,
+    "removed_gold_labels_all_outside_common_SDGs": 33,
+    "final_documents": 600,
+    "final_multilabel_rate": 0.11666666666666667
+  }
+}
