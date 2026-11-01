@@ -27,7 +27,7 @@ The project compares several ways of assigning **UN Sustainable Development Goal
 | **OSDG Community Dataset (OSDG-CD)**, release of 1 Oct 2023 | **Setting A**, multi-class | Short excerpts (about 96 words), one goal each, validated by volunteers. After the majority-vote filter, 34,933 excerpts remain. The main experiments use agreement ≥ 0.6: 15,984 train / 3,465 dev / 3,566 test, from a document-grouped, SDG-stratified 20-fold split |
 | **SDGi Corpus** (UNDP) | **Setting B**, multi-label, and cross-dataset transfer | Long excerpts from national and local sustainability reviews (about 1,218 words) in English, Spanish and French; about 12% of documents have more than one goal. Main evaluation: 965 English test documents; all three languages: 1,342 |
 
-SDG 17 is dropped because OSDG-CD does not contain it. The datasets are not redistributed in a way that replaces their own licences: please obtain them from their original sources (OSDG-CD on Zenodo, SDGi as `UNDP/sdgi-corpus` on Hugging Face) and cite them.
+SDG 17 is dropped because OSDG-CD does not contain it. The notebook fetches both automatically (OSDG-CD from Zenodo, SDGi as `UNDP/sdgi-corpus` from Hugging Face). Please cite the original datasets if you reuse them.
 
 ---
 
@@ -38,7 +38,7 @@ SDG 17 is dropped because OSDG-CD does not contain it. The datasets are not redi
 │                                   # prompt-only LLMs, all evaluation tables and figures
 ├── LLM_fineTuning/                 # Google Colab notebooks for the LoRA models
 │                                   # (Qwen3.5-9B, Gemma-4-12B QAT, Llama-3.1-8B, extra scoring)
-├── data/                           # Raw datasets (OSDG-CD, SDGi)
+├── data/                           # OSDG-CD csv (auto-downloaded if missing); SDGi is loaded from the Hugging Face Hub
 ├── outputs/                        # Generated results: tables, figures, cached predictions
 └── readme.md
 ```
@@ -47,10 +47,47 @@ SDG 17 is dropped because OSDG-CD does not contain it. The datasets are not redi
 
 ## How to reproduce
 
-1. **Data.** Put OSDG-CD and SDGi into `data/` (paths are set in the first cells of the main notebook).
-2. **Main notebook.** Open `SDG_classification_MAIN.ipynb` and run it top to bottom. Slow steps (RoBERTa training, off-the-shelf predictions, LLM answers) are cached in `outputs/`, so re-running is fast and resumable. It was developed on a laptop with an RTX 5060 GPU (about 8 GB VRAM), in bf16.
-3. **Prompt-only LLMs.** Start the LM Studio local server (OpenAI-compatible, `http://127.0.0.1:1234/v1`) with the three 4-bit models loaded before running the prompting section.
-4. **LoRA models.** The notebook exports a data folder (`qwen_export.zip`) used by the Colab notebooks in `LLM_fineTuning/`. Run them on an L4 GPU, download the resulting `.npz` score files into `outputs/preds/`, and re-run the notebook from the registration cell onward. The trained adapters are not stored in this repository.
+### Requirements
+
+* Python 3 with: `torch` (CUDA build; RTX 50-series GPUs need CUDA 12.8 or newer), `transformers`, `datasets`, `scikit-learn`, `scipy`, `pandas`, `numpy`, `matplotlib`, `tqdm`, `accelerate`, `sentencepiece`, `safetensors`, `requests`, `pyarrow`
+*  The datasets and the Hugging Face models (`roberta-base`, `sadickam/sdgBERT`) are downloaded automatically.
+* Environment used for the main notebook: Windows, Python 3.14.7, torch 2.14.1 (CUDA 13.0), NVIDIA GeForce RTX 5060 Laptop GPU (7.9 GiB VRAM).
+
+### Quick start: reuse the cached results
+
+The repository already contains the expensive outputs, so you can reproduce all tables and figures without training anything:
+
+* `outputs/preds/`: cached score matrices of every model (TF-IDF, the three RoBERTa seeds, sdgBERT) and the LoRA score files (`*.npz` and `*_extra.npz`).
+* `outputs/llm/`: the cached answers of the prompt-only LLMs, so LM Studio is not needed.
+* `outputs/qwen_export.zip`: the exported splits used by the Colab notebooks.
+
+Clone the repository, install the requirements, and run `SDG_classification_MAIN.ipynb` from top to bottom: finished steps are loaded from the cache and only the evaluation, tables and figures are recomputed. RoBERTa checkpoints (`outputs/models/`) are not included because of their size. To recompute a model from scratch, delete its files in `outputs/preds/` (or `outputs/llm/`) and follow the steps below.
+
+### 1. Main notebook (all models except the LoRA training)
+
+Run `SDG_classification_MAIN.ipynb` from top to bottom, with the repository root as the working directory (paths are relative: `data/` and `outputs/`).
+
+* **OSDG-CD** is read from `data/osdg-community-data-v2023-10-01.csv` (tab-separated). If the file is missing, the notebook downloads it from [Zenodo (record 8397907)](https://zenodo.org/records/8397907).
+* **SDGi** is loaded directly from the Hugging Face Hub as `UNDP/sdgi-corpus`, so nothing needs to be placed in `data/`.
+* Splits use a fixed seed (42); RoBERTa uses seeds 42, 43 and 44.
+* Everything slow is cached on disk: score matrices in `outputs/preds/`, RoBERTa checkpoints in `outputs/models/`, LM Studio answers in `outputs/llm/`. After a crash, re-run and finished steps are reloaded. Delete these folders to force recomputation. Tables are written to `outputs/tables/` and figures to `outputs/figs/`.
+* If the LoRA score files (step 3) are not present, the registration cell prints a notice and skips them; the rest of the notebook runs normally.
+
+### 2. Prompt-only LLMs (LM Studio) and web chatbots
+
+* Start the LM Studio local server (`http://127.0.0.1:1234/v1`) with 4-bit builds of three models whose ids contain `meta-llama-3.1-8b-instruct`, `qwen/qwen3.5-9b` and `google/gemma-4-12b-qat`. Settings used: temperature 0, JSON-schema constrained output, thinking mode off.
+* If the server is off, the notebook uses the answers already cached in `outputs/llm/` and skips the missing ones. Set `RUN_LLM = False` in the LLM config cell to make this explicit.
+* The web chatbot comparison (ChatGPT, Gemini, DeepSeek) was done by hand: the notebook generates 18 prompt batches, and the answers I pasted back are stored in the chatbot cell, so nothing has to be queried again to reproduce the table.
+
+### 3. LoRA-fine-tuned LLMs (Google Colab, optional)
+
+The LoRA models are trained outside the main notebook, on a Colab NVIDIA L4 GPU (22 GiB). The main notebook only reads their saved scores.
+
+1. **Export the data.** The file `outputs/qwen_export.zip` is already in the repository; it can be regenerated by running the export cell of the main notebook. It contains the OSDG-CD train/dev/test splits, the SDGi chunks, the indices of the 496-paragraph subsample and the robustness sets.  The same file is used for all three models.
+2. **Train.** In `LLM_fineTuning/`, run `qwen.ipynb`, `gemma.ipynb` and `llama.ipynb`, one per Colab session. Run the install cell, restart the session, upload `qwen_export.zip`, set `quick=False` (the default `quick=True` is only a short sanity check) and run all cells. Settings: 6,000 random OSDG-CD training paragraphs, 1 epoch, LoRA rank 16 and alpha 16, learning rate 2e-4, effective batch size 16, seed 42, 4-bit base model. Training took about 44 (Qwen), 71 (Gemma) and 42 (Llama) minutes. Package versions in Colab: Unsloth 2026.10.7, transformers 5.17.0 (pinned to `>=5.0.0,<=5.17.0`), torch 2.11.0 (CUDA 13.0).
+3. **Download the scores.** Each notebook produces `qwen_lora_osdg.npz`, `gemma12b_qat_lora_osdg.npz` and `llama31_8b_lora_osdg.npz`, plus an adapter `.zip`.
+4. **Robustness scores (Tables on annotation noise and keyword removal).** `llama.ipynb` scores them in its last cell (`llama31_8b_lora_osdg_extra.npz`). For Qwen and Gemma, run `extra_experiment_gemma_qwen.ipynb` with their saved adapters, their two main `.npz` files and `qwen_export.zip`.
+5. **Register.** Copy all `.npz` files (main and `_extra`) into `outputs/preds/` (the ones used in the report are already there) and re-run the main notebook from the LoRA registration cell onward. 
 
 ---
 
@@ -101,10 +138,4 @@ Prompt-only LLMs on the 496-paragraph OSDG-CD subsample reach 0.49–0.76 accura
 * Prompt-only LLMs and the chatbot test run on fixed subsamples (496 paragraphs, 600 documents, 144 paragraphs); the chatbot results are exploratory and the exact model versions were not recorded.
 * SDGi chunk labels are weakly supervised (each chunk inherits its document's labels), and decision thresholds are tuned on English data only.
 
----
-
-## Acknowledgements and citation
-
-Datasets: OSDG Community Dataset (OSDG / UN Development Programme / PPMI) and the SDGi Corpus (UNDP, Skrynnyk et al., 2024). Models: `sadickam/sdgBERT`, RoBERTa (Liu et al., 2019), Llama 3.1, Qwen3.5 and Gemma 4. Tooling: scikit-learn, Hugging Face Transformers and Datasets, PyTorch, Unsloth, LM Studio. The full reference list is in the project report.
-
-AI tools were used to help write and edit parts of the code and the report; I am responsible for all content and results.
+-
