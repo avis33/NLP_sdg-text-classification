@@ -1,0 +1,57 @@
+{
+  "SPLIT_SEED": 42,
+  "OSDG_MIN_AGREEMENT": 0.6,
+  "MAIN_LANG": "en",
+  "WEIRD_MAX": 0.1,
+  "MIN_CHARS": 30,
+  "SDGI_CHUNK_WORDS": 150,
+  "SDGI_MAX_CHUNKS": 16,
+  "ROBERTA": "roberta-base",
+  "MAX_LEN": 256,
+  "LR": 2e-05,
+  "EPOCHS": 4,
+  "BATCH": 16,
+  "WEIGHT_DECAY": 0.01,
+  "WARMUP_RATIO": 0.1,
+  "PATIENCE": 2,
+  "COMMON": [
+    1,
+    2,
+    3,
+    4,
+    5,
+    6,
+    7,
+    8,
+    9,
+    10,
+    11,
+    12,
+    13,
+    14,
+    15,
+    16
+  ],
+  "OFFSHELF": {
+    "sdgBERT (off-the-shelf)": "sadickam/sdgBERT",
+    "jonas/sdg_classifier_osdg (off-the-shelf)": "jonas/sdg_classifier_osdg"
+  },
+  "CORE_OFFSHELF": [
+    "sdgBERT (off-the-shelf)"
+  ],
+  "AUX_MODELS": [
+    "jonas/sdg_classifier_osdg (off-the-shelf)"
+  ],
+  "AUTO_FIX_LABEL_MAPPING": false,
+  "sizes": [
+    15984,
+    3465,
+    3566,
+    3387,
+    600,
+    1342,
+    26164,
+    4770,
+    10464
+  ]
+}

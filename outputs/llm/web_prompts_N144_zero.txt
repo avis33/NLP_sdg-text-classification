@@ -1,0 +1,755 @@
+==================== BATCH 1 / 18 (items 1..8; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[1] Text: """In Austria's Styria state, children above age 15 not deemed ready for secondary school are not entitled to attend and, after assessment, are transferred to special courses. Some countries separate students with lower academic ability, often those with immigrant backgrounds, into less demanding tracks, which compromises subsequent opportunities. Moroccan and Turkish second-generation immigrant students in Amsterdam were five time as likely as natives to enter lower secondary vocational tracks at age 12."""
+
+[2] Text: """The average rural Dibao line was CNY 82.3, and the average monthly rural Dibao benefit level was CNY 50.4 in 2008, having increased by 17.6% and 29.9% respectively from previous year. In 2008, the total expenditure on rural Dibao was CNY 22.23 billion (113.5% more than in 2007). In 2001, the number of rural Dibao beneficiaries is missing."""
+
+[3] Text: """Since the 1990s, the Nordic governments have made a considerable effort to both realise and optimise the benefits of ICT and to integrate it into public sector reforms as, for instance, with the development of ICT infrastructure and investments in digital service delivery. Public sector institutions, citizens and businesses have greatly benefitted from these investments leading to better and more efficient welfare services, improved business competitiveness, social inclusion and economic growth. The chapter concludes with a summary of the issues related to Internet non-users. It also contributes to the promotion of more inclusive societies, enhancing a wider daily use of digital technologies (Internet of Things, smartphones, blockchain, social media) for both citizens and businesses. The graph (figure 12.1) on NGA networks coverage indicates the number of households that, in principle, have access to fast broadband in European countries in 2014,2015 and 2016. The countries with the highest figures correspond to those with relatively small territories and important population densities, standing out in terms of their high NGA network coverage, Malta and Belgium have reported values of around 99% since 2014."""
+
+[4] Text: """All other data is from CEPALSTAT database unless otherwise indicated. Women have high labour force participation rates and their work is concentrated in the agricultural sector - even more so than men's. Almost all of this work is informal, with women participating in production most often as smallholders, causal wage workers or contributing family workers (UNRISD 201 o)."""
+
+[5] Text: """It has to be however considered in connection with the profitability of the public transport provider as well as the inhabitants'purchasing power. This will happen unless the local governments are able to take over the investment costs. Provided that the operation is above break-even point, it would give space for fare cut."""
+
+[6] Text: """The second focuses on an analysis of the relationship between poverty and inequality. The third covers the literature on the relationship between economic growth and income inequality. These studies’ findings corroborate each other to the extent that they all indicate that, as noted by Araujo, Tabosa and Khan (2012), there are two fundamental factors at work: the average growth rate and the initial level of income inequality."""
+
+[7] Text: """They can also contribute to engage further dialogue between non-governmental organisation (NGOs), academics, and citizens and local governments and service providers on water-related issues. This can help gain greater citizen buy-in, a shared understanding of the issues at hand and more informed inputs to the decision making. Selected examples include water users’ associations (WUAs), the Highlands Water Forum, the National Water Council and customer satisfaction surveys."""
+
+[8] Text: """The need to involve the patient - both in their care and in incident reporting - resonates strongly and is consistent with the responses on measuring harm. The popularity of incentives to encourage team-based care is interesting. It suggests a potential move towards alternative remuneration models (population-based or bundled payments). It also suggests that a breakdown in integrated care can be seen as a safety lapse - therefore adding weight to avoidable hospitalisations as a safety issue (Section 3.2.2)."""
+
+Answer:
+
+==================== BATCH 2 / 18 (items 9..16; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[9] Text: """The federal government announced the withdrawal of responsibility for funding for remote Aboriginal communities in Western Australia. The Western Australian government then initially announced the closure of a number of remote communities. In this article, we first look at the history of Indigenous dispossession to appreciate the gravity of the possible effects of the proposed closures. Next, we examine the legality of the decision and inconsistency with human rights law. We show how affected Indigenous groups lack administrative law avenues to challenge government decisions. Therefore, we suggest that reform should be explored in the administrative judicial review space, which could work in favour of Aboriginal communities whose homelands are threatened by closure. However, this is by no means the only necessary step. Autonomy, recognition, self-determination and protection of Indigenous cultures and consultation need to be fostered and encouraged within government decision-making and public policy."""
+
+[10] Text: """In doing so, provide the RIC with the capacity and financial means to fulfil its commitments based on a clear mandate and agenda. Tekes, the main funding agency for applied R&D and business sector innovation, has seen its R&D budget shrinking steadily since 2010. Over the period 2011-17, its budget has been cut by 51% (in real terms)."""
+
+[11] Text: """This process of opening up and internationalising is still ongoing as - after markets for goods and services, company ow nership and location - science and business R&D have also become increasingly globalised. The government responded by increasing public investment in education, research and innovation to compensate for reduced business R&D expenditure. In the second half of the 1990s, public and private investment in R&D increased at a fast pace."""
+
+[12] Text: """The enabling law for this in Algeria is the 2004 Law on Prevention of Major Risks and Disaster Management. In Uruguay, a special decree, the National Response to Climate Change and Variability, was passed in 2009. Implemented by the Ministry of Housing, Spatial Planning and the Environment, its purpose is to coordinate actions among all institutions relevant to achieving risk prevention in the whole territory."""
+
+[13] Text: """As for the previous group of countries, the official poverty estimates coincide in the direction of variation, although in general they report larger poverty reductions in Ecuador, Panama, the Plurinational State of Bolivia and Uruguay. The ECLAC figures aim to reflect the situation in the region in the most comparable manner possible, while the national figures seek to best capture the realities of each country. This leads to normal methodological differences in the many decisions that are made in the process of building poverty lines (the way the goods in staple food and non-food baskets are selected, the prices used to allocate value to these goods or the deflators used to update poverty lines, among many other factors), as well as in the definition of household income, the treatment of non-responses or the inclusion of imputed rent for the use of owner-occupied dwellings."""
+
+[14] Text: """As such, the consumption of goods manufactured in Asia and the Pacific has created a large "material footprint" across the manufacturing sector's supply chain, involving many different kinds of material. The growth in material use by the manufacturing sector has resulted in economic growth in many parts of the region, the less developed countries are now starting to catch up with the living standards enjoyed by their more developed counterparts. An expanding middle class has increased the demand for and consumption of materialintensive products, such as cars, furniture and household appliances."""
+
+[15] Text: """Costa Rica and Paraguay, "other income" accounted for a large part of the rise in poor households' income, mainly through imputed rent. In the case of Ecuador, income from pensions and transfers kept poverty from rising between 2015 and 2017 (see figure II.7). Income from transfers in poor households rose in almost all the countries."""
+
+[16] Text: """As a result, upper-middle income working class rather than the top income class shouldered the burden. This, coupled with corruption, led to much higher administrative costs and compliance costs of a progressive PIT in developing countries than in developed countries, and left many loopholes that the rich, who are more resourceful and connected, could exploit. Reforms towards comprehensive PIT can include a progressive element as incomes from investment/capital gains, when taxed separately, are normally taxed at a flat rather than progressive rate."""
+
+Answer:
+
+==================== BATCH 3 / 18 (items 17..24; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[17] Text: """At the same time, it is mandatory to acknowledge and recognize the differential knowledge in the community while reviving interest in traditional knowledge. The vertical and horizontal stratification operating in a given society defines the access to various resources including cultural and natural resources. The approaches of organic farming and LEISA are potential alternative systems and more environment-friendly forms of agriculture, which provides scope to create links between traditional and scientific knowledge systems. The promotion of organic farming and its standards needs to respect the traditional ecosystems and knowledge of the farmers. It is important to assimilate strategies that combine traditional knowledge and modern science-based practices to achieve sustainable and equitable use and development. Such changes would require a shift in research and development approaches towards farmer/user-led participatory development, which is right now being practised among developmental agencies."""
+
+[18] Text: """Between 2015 and 2017, six countries show an annual reduction of 3% or more in poverty rates. In Chile, El Salvador, Panama and Paraguay, over half of the rise in poor households' income came from labour income, while in Costa Rica and Uruguay increases in contributory and non-contributory transfers predominated. In some countries, especially Chile."""
+
+[19] Text: """Less than 3 per cent of collected MSW is recycled. Separation of waste and recycling infrastructure are not yet sufficiently developed to achieve targets set by the EU. This MO transposes relevant EU legislation.57 The aim of these regulations is to define limit values for concentrations of heavy metals in the soil and in sludge, and for the maximum annual quantities of heavy metals which may be introduced into the soil."""
+
+[20] Text: """This in turn requires an analysis to identify gaps in innovation and technology readiness. The Global Competitiveness Index developed by the World Economic Forum (WEF) includes a sub-pillar on innovation encompassing capacity for innovation, quality of scientific research institutions, company spending on R&D, university-industry collaboration on R&D, government procurement of technology products, availability of scientists and engineers and Patent Cooperation Treaty patents (WEF, 2017). Comparing this sub-pillar with those on technology readiness and particularly ICT use, an appreciation ot a suggestive relationship can be distinguished."""
+
+[21] Text: """This new methodology offers an up-to-date and more precise measure that allows for better comparability with the measures of other Latin American countries. Its advantages include updating continually consumption habits and using a better measure of income. Extreme poverty also decreased, dropping from 18% to 11% over the same period."""
+
+[22] Text: """However, it is important that public participation does not turn into an obstacle to urban projects. In some cases, citizens who have opposed plans have taken the case to court to block infrastructure projects. This indicates how important it is to get citizens involved in public deliberations from the earliest stages. For that purpose, local communities need to be given a variety of tools and mechanisms to participate in resolutions adopted by the akimats. To engage the broader public, focus groups, media campaigns and an interactive website could be considered."""
+
+[23] Text: """Graduates of tertiary education who are roundly educated and skills relevant to the job market will boost productivity and economic growth, thereby increasing capacity for greater investment in education and other services. Improvements in teacher education, in part resulting from better-prepared entrants to pre-service training, will promote better teaching and learning at all levels of education. Thus it will be necessary to determine relative priorities among the sectors, find efficiencies in future expansion whilst raising quality, and, where appropriate and possible, shift a proportion of the costs from the public to the private sector."""
+
+[24] Text: """A restrictive licensing scheme operates and no new licences are issued by the UK authorities. Anyone who wishes to fish for profit, must acquire a licence from an existing fishing vessel. Owners of all vessels fishing against the United Kingdom’s quotas have to maintain a genuine economic link with the United Kingdom."""
+
+Answer:
+
+==================== BATCH 4 / 18 (items 25..32; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[25] Text: """The aim of this GD is to minimize the impact of end-of life vehicles on the environment by restricting the use of certain heavy metals in new vehicles from 1 July 2003. The objective is to ensure that 85 per cent of an end-of-life vehicle by weight will be recycled by the year 2006, increasing to 95 per cent by the year 2015. The purpose of these two GDs is prevention of WEEE and, in addition, the reuse, recycling and other forms of recovery of such waste so as to reduce the disposal of waste."""
+
+[26] Text: """Information given above derived from IPCC (2007), “Summary for Policymakers”. The Government has stated that “it would be irresponsible to acknowledge this reality and not do anything to prepare our community for eventual migration”. See Republic of Kiribati, Office of the President, “Relocation”, Kiribati Climate Change. Available at http://www.climate.gov.ki/category/action/relocation/ (accessed 25 January 2016)."""
+
+[27] Text: """Organisation for Economic Co-operation and Development. Washington, DC : PAHO, 2015. I. Legetic, Branka (ed.), Cecchini, Michele (ed.). Publication is available on the OECD web site (www.oecd-ilibraiy.org) and PAHO web site (www.paho.org). Requests for permission to reproduce or translate this publication should be addressed to the Communication Department (CMU), Pan American Health Organization, Washington, D.C., U.S.A.(www.paho.org/publications/copyright-forms)."""
+
+[28] Text: """Road improvement may continue to have its place in locations where it can be demonstrated to be socially and environmentally justifiable - and where proper maintenance can be provided - but only in a broader context of other measures. For these reasons, policy recommendations must embrace broader solutions to problems that are long-term by their nature while also attempting to offer short and medium term measures that can assist with increasing the quality of life in Vietnamese cities by making efforts to make transportation safer and greener. First, with road accidents being the second highest cause of death in Viet Nam (Chapter 1), urban road safety is a pressing issue that must be urgently addressed."""
+
+[29] Text: """Yet they are increasingly well educated, and often better educated than men. The next section finds that inequality also prevails in unpaid work in the home, where women still do the lion's share of housework and parenting. Section 5 considers widespread dissatisfaction with the struggle to balance work and family life, while the final section examines how a more equal gender distribution of paid work might impact on the German labour force and German economic performance."""
+
+[30] Text: """Moreover, enforcement is highly challenging, given the low numbers of PA personnel available to monitor such large areas. Furthermore, there seems to be a problem of coordination in terms of enforcement and compliance. A number of different laws regulate hunting (and fishing), and these should be harmonized and their application coordinated between MoEF and other institutions such as NEPA, NEG, NARW and NIMRD. In the Danube delta, for example, there are eight institutions which control illegal fishing or illegal hunting."""
+
+[31] Text: """Growth of workers’ remittances slowed in 2012, partly due to a high base effect, but remained a major source of income generation, accounting for more than 10% of GDP. There was some improvement in oil production and that helped in raising GDP growth to 2.2% in 2012. Agricultural, construction and services sectors also contributed to improved growth. Nevertheless, this pace of growth is still much slower than its long-term trend. Sluggish growth in the major destinations for oil exports, namely the euro zone and China, also kept growth of the economy below its potential."""
+
+[32] Text: """Income mobility aids the diagnosis of sodal cohesion by quantifying winners and losers from past economic performance. The second part of the section reviews job mobility between 2004 and 2008 with a focus on movement across type of employment, industries and jobs with different skill levels and skill mismatches. The final part of the section examines children's educational aspirations with the aim of identifying factors shaping inter generational inequality in Viet Nam."""
+
+Answer:
+
+==================== BATCH 5 / 18 (items 33..40; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[33] Text: """The search found 78 PES schemes were in operation, with 13 under development (Annex 2). Of these 78 schemes, 37 were focused on forest/ biodiversity, 28 were watershed-related, and 13 were water quality trading programmes. Many PES programmes are located in Latin America, but there are also numerous schemes in Europe and North America, particularly in forest/biodiversity programmes. It is unlikely that the literature review has identified all the PES schemes, which are in use in the UNECE region."""
+
+[34] Text: """Papua New Guinea is currently a member of Asia-Pacific Economic Cooperation and has observer status in the Association of Southeast Asian Nations (ASEAN). Papua New Guinea’s exports to China, for example, increased from $122 million in 2001 to $817 million in 2011 on the back of increasing Chinese demand for Papua New Guinea’s petroleum products. Meanwhile the exports of Solomon Islands to China, dominated by timber logs, reached $348.4 million in 2011."""
+
+[35] Text: """It begins with an overview of the historical evolution of science, technology and innovation policy in Finland. It then examines the main policy actors and governance arrangements. Finally, it reviews current policies in light of the observations made in the preceding chapters and concludes by identifying areas in need of policy attention. The use of such data by the OECD is without prejudice to the status of the Golan Heights, East Jerusalem and Israeli settlements in the West Bank under the terms of international law."""
+
+[36] Text: """Over a ten-year period they closed special schools and put the resources into mainstream. It recognises, however, that individuals are not always treated as equals and that young people with disabilities experience discrimination and disadvantage. The Council believes that segregated special education is a major factor causing discrimination."""
+
+[37] Text: """The results emphasise the importance of the patient opinion and experience in obtaining a fuller picture of patient harm and lapses in safety. This is a key ingredient of learning health systems at local and aggregate level. In developed countries, education of professionals and systematic patient reporting were the most frequently selected, followed by improving organisational culture, an integrated national incident database, more incentives for team-based care, and patient involvement strategies."""
+
+[38] Text: """Various school leaders had decided on a topic for their school-wide professional learning (e.g. “visible learning” based on the work of John Hattie [2012, 2009]) and schools were planning workshops that all teachers were to participate in. Challenges with this type of professional learning include a lack of differentiation based on teacher need, a lack of teacher ownership over their learning and often a lack of connection to the learning needs of students. More generally, as interviews during this and a previous OECD study as well as international data suggest, professional development is not always planned systematically at the school level, is not based on sound teacher evaluations and knowledge about teacher’s development needs to better meet the needs of their students (more on this below), and lacks strong links with wider school development planning."""
+
+[39] Text: """However, only a handful of structuralist models explicitly incorporate gender, and among those that do, the focus is most often on the macroeconomics dynamics of gender-based wage inequality and female labour force participation in a development context.' By contrast, we incorporate unpaid work and care, and the implications of their gendered distribution, into a conceptual model of social reproduction that can accommodate a variety of economic structures and social welfare regimes. We define care in both labour-process and output terms."""
+
+[40] Text: """With regard to transport policies, the government's 2009 policy document Smarter Travel: A sustainable transport future sets out how the vision of a sustainable travel and transport system can be achieved through actions by relevant government departments and agencies, facilitated by the Department of Transport. It recommends actions such as fostering a "cycling culture" and a "walking culture" which, Failte Ireland believes will also enhance the tourism offer. From 1 July 2008, the rate of VRT (purchase tax) for all new and used cars registered in Ireland is calculated on the basis of the CO.,"""
+
+Answer:
+
+==================== BATCH 6 / 18 (items 41..48; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[41] Text: """Even where long-term savings outweigh initial investments, end users may fail to choose energy-efficient options because of financial constraints. Projects and programmes aimed at facilitating financial support therefore play a key role in removing barriers to EE investment, in particular in developing countries.51 Energy savings resulting from EE investment by end users reduce the need for new investment in energy supply capacity. Whereas most supply-side investments would be made by a small group of actors, mainly large energy producers and distributors, the additional investment in end-use sectors will have to be made by a large number of small investors. The IEA therefore emphasizes that shifting investment from the supply side to the end user requires viable financing frameworks (IEA, 2006)."""
+
+[42] Text: """In response to the low rate of collection by municipalities, the CAEM, the Water Commission for the State of Mexico, introduced a chargeback system, in which transfers to municipalities are reduced if they do not collect their fees. A lack of coverage with individual water meters results in a significant percentage of households paying fixed fees for their water. In the Valle de Mexico metropolitan area, only 52% of households are metered."""
+
+[43] Text: """The consequences of the warming of the planet will continue to challenge the capacity of countries to prevent devastating impacts on people and ecosystems. The persisting inequalities in multiple dimensions have led to recognition that climate hazards have a differential impact on people and communities. It argues that, in the absence of well-assessed, far-reaching transformative policies at the national level, supported by effective global partnerships, building climate resilience will remain elusive and poverty and inequalities will likely be exacerbated. This would pose a fundamental challenge to the implementation of the 2030 Agenda for Sustainable Development."""
+
+[44] Text: """Data for water quality statistics are produced primarily by monitoring stations. Monitoring programmes are usually developed when a policy or quality norm is set up for specific locations that show the most problematic signs of pollution. Most monitoring stations and regular monitoring programmes are aimed at measuring specific pollutants. The data from these monitoring stations require further processing to produce environment statistics on the water quality of specific locations."""
+
+[45] Text: """The Marine Strategy Framework Directive (MSFD) implies establishment of monitoring programmes for assessment, enabling the state and impact of the marine waters to be evaluated on a regular basis. Recently, several marine litter activities have been initiated parallel with the implementation of EU MSFD in Europe and thereby also in some of the Nordic countries, i.e. Sweden, Denmark and Finland. In Norway and Iceland, although not members of EU, national management plans for the marine environment in these countries also include many of the same important elements as in the EU MSFD and also targeting marine litter. For the other Nordic countries that are not EU Member States, i.e. Faroe Islands and Greenland, marine litter can also be relevant for their national marine management plans, although it is not at the moment targeted as a specific element within these plans."""
+
+[46] Text: """The revenue they generate supports infrastructure development and compliance promotion campaigns through the Environment Fund. Voluntary approaches by business and industry, especially regarding air and waste, have led to increased recycling, reduced air pollution and the promotion of eco-innovation and energy efficiency. The lack of enforcement capacity in smaller municipalities has been an important impediment."""
+
+[47] Text: """The observatory, by collecting and sharing data with all the LGUs in one location, will function as a platform which eliminates silos in urban and metropolitan management and makes it easier to address common issues such as transport, flood risks, air and pollution and waste management. The Bandung Command Centre in Bandung, Indonesia, can be a good model (Box 4.7). Currently, a lot of data is missing that is needed to assess the environmental status and performance of the region (e.g., there is no recent air quality data available, while increasing commuting trips and motorisation suggests air pollution may become more severe in the near future). In addition, where data is available, it is often only at the scale of local authorities, or at the broader scale of the Johor State, which is insufficient for any accurate analysis of the policy needs."""
+
+[48] Text: """The fragmentation of education governance makes it difficult for subsystems to share resources and also hinders the smooth shift of resources from one subsystem to the other when needed. Under such a governance structure, holistic "whole-system” change is difficult to implement. Ambiguity in education leadership together with accountability for education results not well targeted prevents any major reform in Uruguay’s education system. Only small and incremental change is feasible under the current governance arrangements."""
+
+Answer:
+
+==================== BATCH 7 / 18 (items 49..56; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[49] Text: """On 26 June 2002 the international criminal code was adopted in Germany after a unanimous vote of the Bundestag (Deutscher Bundestag, 2002).1 Following the ratification of the Rome Treaty, the new rule adapted the German criminal law to the statute of the International Criminal Court (ICC). It seemingly introduced new legal categories, ‘crimes against humanity’ (§ 7) and ‘war crimes’ (§ 8–12), which – unlike ‘genocide’ – were unknown in West German criminal law since 1949. But in fact, this was a reintroduction rather than an introduction ex nihilo, for German courts had already been given the ability to punish these crimes under Allied occupation (1945–49)."""
+
+[50] Text: """The correlations between innovation and equity of learning opportunities are weak (Figure 18.17). In particular, across the whole distribution of innovation scores there are many education systems with poor equity in terms of learning opportunities. This is in noticeable contrast to the reading performance equality measure described above. However, the three most equitable education systems in this regard, Hong Kong, Korea and Singapore, are also above average in terms of overall innovation."""
+
+[51] Text: """This paper studies the health policy measures taken by the local government of Xalapa to prevent cholera morbus from causing serious harm in the city. The fact that Cabildo assumed control of preventative sanitary policy was evidence of a new vision of society, in which the State sought to take a leading role in actions. Before the outbreak of the disease, the municipal authorities implemented a series of measures designed to preserve public health, such as public announcements and the creation of commissions to preserve public order. However one of these - the decision to change the location of the hospitals, including the military one - led to conflicts with the military authorities. The dispute over the possession of the Military Headquarters, which many groups considered their own, revealed a power struggle, as the civil authorities sought to impose their decisions on the military."""
+
+[52] Text: """In inner cities, there are limits to the improvements that can be made in the context of streets that are frequently narrow, and the constrained efforts to do so often involve expropriations, evictions, and demolitions that are socially and financially costly. Moreover, even insofar as the goal of allowing more cars in parts of a city is realised through these efforts, the problems of congestion may only be shifted to other parts of the city rather than being resolved in any viable sense. Finally, reliance on the expansion of the road network also raises concerns regarding the ability of the Government of Viet Nam to provide necessary road maintenance in the future."""
+
+[53] Text: """The number of individuals who are economically inactive for family reasons relative to the number of children aged under 4 is high in Estonia (Figure 18). Women gradually start returning to work after their youngest child becomes eligible to start kindergarten at the age of 18 months (Figure 19), but this process has been slowed in the past because of a lack of places. The number of childcare places has recently been expanded to reduce capacity constraints (European Commission, 2016). Also, there are plans to allocate some parental leave to the father on a “use-it-or-lose-it” basis, and labour inspectors have been instructed to ensure that the principle of equal pay is being observed, both of which should encourage greater labour market participation among mothers of young children."""
+
+[54] Text: """Data for water management and shared responsibilities (cont.) Therefore, it is always necessary to compare water balances based on the amounts of granted abstraction with data monitored on the ground reflecting the effective use of water. Compliance is a major challenge and very much influenced by cultural factors."""
+
+[55] Text: """However, those costs are mainly borne by the nuclear power plant developer and only impose limited additional costs on the electricity system as a whole. Section 2.3 will then analyse the special conditions that nuclear power plants impose on the electrical system at the level of the transmission. These include the higher requirements concerning grid stability and security, the specific requirements on grid layout due to the large size of a nuclear unit, as well as the interaction between the overall generation system and nuclear plants due to the latter’s operational characteristics."""
+
+[56] Text: """Within the health system there are two different models for assessing the construct “functioning/disability”: the “activities of daily living (ADL)” approach (or Katz/Barthel model), and the “Functioning” (ICF) approach developed by WHO. The ICF was developed to provide a more comprehensive framework, based on the view of a health condition or disease as the interaction of body function and structures, activities and participation, which are in turn impacted on by social and environmental factors. The importance of participation as an outcome is also highlighted (WHO, 2001)."""
+
+Answer:
+
+==================== BATCH 8 / 18 (items 57..64; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[57] Text: """Our approach towards measuring and analysing IG has thus three main features, multi-dimensionality, focus on distributions and policy linkages. Our approach towards IG focuses on a sub-set of these dimensions, income, health and jobs. By its very nature, inclusiveness requires a focus on individuals and households, rather than on the economic system as a whole."""
+
+[58] Text: """This involves strengthening relationships within government, and between government and other partners, in an on-going process of policy co-ordination that embeds social protection within broader social and economic policy planning. Figure 6.2, adapted from Uganda’s successful approach to integrating social protection within its development planning process, illustrates the process. For example, the shaded box depicts a potential area for intra-sectoral linkages."""
+
+[59] Text: """Investment flexibility is particularly valuable in deregulated electricity markets, where electricity market prices may have higher variability. In order to continuously re-establish the balance between load and generation, a certain amount of active power is kept in reserves: such reserves are usually referred as “spinning reserves”, but definitions vary among countries (Rebours and Kirshner, 2005, Kirby, 200, Bovo et al., In Chapter 2 those reserves were subdivided into primary, secondary and tertiary reserves depending upon the time window of availability."""
+
+[60] Text: """This might also signal risk factors related to lifestyle that could be more prevalent for men: alcohol and tobacco consumption are each indeed high in OECD comparison, while fruit and vegetable consumption is low (OECD, 201 la). It is important to note, as shown by OECD (2010a), that there is no trade-off between improving health outcomes on average and reducing inequalities in health status, which reinforces the justification for aiming at reducing such dispersion. Grimm (2011) even provides evidence that, controlling for the overall level of life expectancy, health inequality negatively affects economic growth."""
+
+[61] Text: """As inflationary pressures continued to abate, the central banks of Kyrgyzstan and Tajikistan cut their policy rates sharply since the beginning of 2012. With economic growth slowing and policy rates already low, the prospect of a rise in food price inflation in late 2012 created a potential policy dilemma. Although the refinancing rate has not been changed since September 2011, the bank's conduct of monetary policy would have only a limited impact on inflation due to its weak institutional capacity and the relatively undeveloped domestic debt market."""
+
+[62] Text: """In contrast, developing countries are affected by their limited capacity despite the overall importance of the fisheries as a source of food protein. Fisheries on the high seas and those for straddling stocks face unique challenges, as fish move across national boundaries. The following paragraphs identify the state of play at the national and international level, and in some cases illustrate how nations are seeking ways in which to deal with the four types of uncertainty identified earlier."""
+
+[63] Text: """These organisms can be found living in subterranean water-filled karst cavities and in water bodies in above-ground caves. This life comprises many ancient species of crustaceans, such as Microcharon, Microcerberus, Stygctsellus and the archiannelid, Troglochaetus. To strengthen the data and information management system for biodiversity conservation, Romania participated in the UNDP/GEF project entitled Support to Alignment of the National Biodiversity Strategy and Action Plan (NBSAP) with the CBD and Development of a Clearing House Mechanism."""
+
+[64] Text: """Feminist political ecology is an epistemological approach to human-environment relations at the intersections of three key areas in the social sciences. These areas are feminism, development, and environmental studies. This article discusses the changing dynamics of these intersections through an intellectual history of the term as it emerged from ecofeminist philosophy in 1970s and 1980s and was shaped by contributions from critical development studies, human ecology, and poststructural feminism. Feminist political ecology emphasizes natural resource management issues, social justice, and environmental concerns, and analyzes the connections between social inequality, social change, and environmental issues through the themes of gender, identity, and difference in human-environment relations."""
+
+Answer:
+
+==================== BATCH 9 / 18 (items 65..72; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[65] Text: """The article presents a theoretical model of social consciousness developed from nurses' life histories. A 3-position dialectical framework--acquired, awakened, and expanded social consciousness--makes visible the way people respond to social injustice in their lives and in the lives of others. The positions coexist, are not hierarchical, and are contextually situated. A person's location influences her or his availability for social action. Nurses who could most contribute to challenging social injustices that underpin health disparities are relegated to the margins of mainstream nursing by internal processes of discrimination. More inclusive definitions of "a nurse" would open up possibilities for social change."""
+
+[66] Text: """The only available policy tool for cross-sectoral collaboration is the SRC project funding, but this addresses policy concerns in priority societal challenges. Norway and the Netherlands display shares of 50% and 41%, respectively. According to Statistics Finland’s last R&D survey, large firms with more than 500 employees represented about 76% of BERD in 2014."""
+
+[67] Text: """This study employs a select ethnography of Palestinian workers in the field of international law and human rights to explore how an epistemic community gives content and meaning to international law in its professional and personal life. Through a series of interviews conducted in the West Bank in the wake of the Palestinian attempt to gain full United Nations membership in September 2011, the article constructs a meta-narrative about the nature of international legal discourse as spoken on the Palestinian periphery. It shows how speakers of international law are required to restate or over-state the distinction between law and politics so as to sustain their hope and desire for Palestinian statehood in the face of despair about its protracted denial. The article then is an exploration about the politics of meaning making through international law and a call for methodological hybridity within the discipline of international law."""
+
+[68] Text: """All levels of government could use the JICA-MCDCB roadmap and the present study as a basis to design projects collectively. It could be an opportunity to attract more easily official development finance at the local level but also to give the LGUs - and in particular the MCDA if created - a more important role in attracting international finance to realise urban green growth objectives. Such local mechanism has already been set up in several main cities in Viet Nam, with support of the French Development Agency (AFD). Such initiative could be supported by the national government, and in particular the Philippines Development Bank and the Land Bank of the Philippines."""
+
+[69] Text: """Another motivation for load following with nuclear power plants is the large-scale deployment of variable energy sources in some countries, like Germany. In the following, we provide some examples of load following operations by French and German nuclear power plants and how nuclear energy contributes effectively in balancing the fluctuations of total power generation. The American NRC, for instance, does not allow any automatic load following, nuclear units therefore cannot provide primary and secondary frequency control services."""
+
+[70] Text: """Growth incidence curves depict changes in total adult-equivalent disposable income for two sub-periods: 2002-08 and 2008-12 (Figure 1.2). Trends show general and continuous improvement in total disposable income of households in Viet Nam from 2002 to 2012, explaining the enormous reduction in prevalence of absolute poverty. For the period 2002-08, however, final distribution of gains favoured less those households in the bottom 20% of income distribution, while the richest individuals and those between the 4th and 8th deciles benefited the most."""
+
+[71] Text: """Experiences in other economies reveal that much more aggressive policy and programme initiatives to assist women in their marketing efforts are possible. A good practice from Pakistan in supporting women exporters is profiled in Box 6.6. They further stressed the importance of expanding cluster linkages for women-owned SMEs and including them in value- and supply-chain initiatives."""
+
+[72] Text: """Such examples include the G20,7 the Clean Energy Ministerial,8 the Climate and Clean Air Coalition,9 the Friends of Fossil Fuel Subsidy Reform,10 the Carbon Pricing Leadership Coalition11 and many others. In other words, climate change can be tackled through cooperative action in a number of sub-fields, such as clean energy development, carbon pricing initiatives, and fossil fuel subsidy reform. They have introduced a nexus thinking showing that many goals for sustainable development (where climate change is one of 17 goals) are interlinked."""
+
+Answer:
+
+==================== BATCH 10 / 18 (items 73..80; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[73] Text: """In exploring the possibilities for a new form of general jurisprudence which can underpin law as a cosmopolitan discipline, questions arise as to the feasibility and desirability of generalisations about law ‐ whether these be analytical, normative, empirical or legal in nature. Such questions are relevant both to legal scholarship and legal education. Engaging in comparative studies of the common law in its various jurisdictional manifestations provides a fruitful way of problematising what, if anything, is ‘general’ about general jurisprudence, as such it could be a means of developing a healthy cosmopolitan discipline of law."""
+
+[74] Text: """Hence, improving food security and even economic growth will critically depend on removing the barriers faced by small farm holders and expanding their productive capacity, while paying particular attention to the needs of female farmers. This would entail both the establishment of a comprehensive national framework for sustainable use of resources, and a harnessing of the technology and innovation needed to increase the productivity, profitability, stability, resilience and climate change mitigation potential of rural production systems and forests. Water conservation, soil protection and biodiversity enhancement need to form part of an integrated approach of sustainable land and forest management,3 which must also integrate biophysical with sociocultural, institutional and behavioural variables, while recognizing the multifunctional nature of agriculture. In view of their competitive land uses, many solutions, involving difficult choices, will be reached through open and inclusive discussion and negotiation."""
+
+[75] Text: """Recycling alone is a single measure and cannot fulfil the overall goal of achieving sufficient services in a society while minimizing levels of environmental impact from material/resources consumption. Moreover, as a first priority, alternatives emphasizing reduction are preferable to either recycling or resource circulation. The Japanese Junkan Shakai plan, launched at national and local community levels, stresses community-based recovery, repair by craftsmen, use of eco-bags and mottainai (meaning “waste not” in Japanese), embodying a simple life decoupled from material affluence and emphasizing spirituality. The experience gained in establishing an international standard for the concept and application of product-based CF, or business-site-based GHG accounting, may contribute to monitoring and evaluation of progress and the comparison of the extent of resource circulation and related sustainability."""
+
+[76] Text: """The degree to which the questions of the survey were answered by the authorities differs and hence it was not possible to analyze every element selected for review for the group of 32 or even 36 capital cities. United Nations Statistical Division database. Yet some data, like e.g. such necessary to examine the demand for motorized and non-motorized transport were estimated based on modal spilt information available for many of the cities of the European Union region32."""
+
+[77] Text: """With an increasingly knowledge-driven (global) economy and competition in the speed of innovation, governments, particularly in developed economies with the infrastructure and institutions in place, should prioritize the development and full use of a population’s available set of skills. Young girls are rarely encouraged to pursue maths and science, which are more likely to be presented as fields of study for boys. It is important that mathematics and science are taught in contexts that are interesting to boys and girls, and a positive attitude towards a subject is also related to positive teacher-student relations (OECD, 2010a)."""
+
+[78] Text: """Statistics on water resources include the volume of water generated within the country or territory as the result of precipitation, the volume of water lost to evapotranspiration, the inflow of water from neighbouring territories, and the outflow of water to neighbouring territories or the sea. The statistics are sourced from hydrometeorological and hydrological monitoring, measurements and models. Statistics on the quality of water in water bodies are discussed under Topic 1.3.2: Freshwater quality and Topic 1.3.3: Marine water quality."""
+
+[79] Text: """In contrast, between 2000 and 2004, foreign investments in developing countries stagnated and those in the OECD declined following the bursting of the dotcom bubble (Figure 1). Yet, between 2004 and 2006, FDI to developing economies rose faster than the total, following the introduction of legal changes allowing majority ownership by foreign investors, liberalization of profit remittances and gradual elimination of clauses on minimum domestic content, minimum export requirements, exclusion of strategic sectors and indigenization of management (UNCTAD, 2007, table 1.8). This leads to the conclusion that FDI reduces income inequality in Iow-wage, labour-abundant countries by accelerating capital accumulation, raising the demand for unskilled workers and offering higher wages than those prevailing in the informal or domestic formal sectors."""
+
+[80] Text: """Public forms of sexual violence are more likely in conflict, while sexual abuse and violence in more closed institutions.4 As with sexual violence against women and girls as well as against those of non-binary gender identities, sexual violence against men is about gendered and patriarchal power and domination. One of the main reasons why SGBV against men and boys is so effective in undermining survivors’ selves is that it strikes at multiple levels what it means to ‘be a man’ in many societies. This includes: to be able to protect oneself, the family, and the community, to be a breadwinner - as this might become impossible because of the injuries incurred, especially where manual labour is the main opportunity available, to partake in the leadership of the family and community, and to not seek outside help or support."""
+
+Answer:
+
+==================== BATCH 11 / 18 (items 81..88; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[81] Text: """The negative and corrosive impacts of corruption in the fields of economics, politics, and law are widely discussed. Less understood are the potentially negative impacts of anti‐corruption struggles and strategies themselves. This article presents a case study of Brazil's ‘Car Wash’ (‘Lava Jato’) scandal from a legal and political perspective. Although the subsequent Operation Car Wash investigation was widely regarded as remarkably successful, supposedly buttressing the rule of law through high‐profile prosecutions of leading politicians and businesspersons, the article argues that legal due process, wider constitutional law, and the political process were undermined. While the use of media leaks to strengthen the investigation proved tactically successful, when coupled with new legal instruments it undermined the presumption of innocence and contributed to a climate in which political and legal debates themselves became increasingly subordinated to simplistic polarizing anti‐corruption discourses, thereby undermining an already fragile political and institutional environment."""
+
+[82] Text: """The practice in Mongolia is different. In this category is also reported manufacturing waste similar to MSW (waste from food and beverage production, textiles, leather, furs etc.), Therefore, this category of waste was excluded from estimation of MSW generation and was used for estimation of manufacturing waste generation."""
+
+[83] Text: """The French grid operator RTE publishes on its Internet site the electricity consumption data for France with a time resolution of 30 minutes. Residual duration curves have been calculated for two variable generation technologies, wind and solar, and for a generic dispatchable technology. Residual load curves have been obtained with a Monte Carlo process taking into account the loads variability of wind and solar production."""
+
+[84] Text: """The need to find alternatives to the present aquatic feed resources is urgent While aquaculture production shows steady and rapid growth, global fish catches are stagnating or even slightly decreasing. The world production of both fish meal and fish oil have, according to The International Fishmeal and Fish Oil Organisation IFFO statistics, slipped remarkably from the record levels 20 years ago. Increasing demand of fish meal and particularly fish oil rich in omega-3 fatty acids for human use, has led to increasing prices and a reduced availability for the aquaculture sector."""
+
+[85] Text: """The IPCC SRI.5 projects that, based on Member States’ current NDCs, the climate system is heading off track into the territory of 2.9°C to 3.4°C warming.317 If this happens, it would take future hydrometeorological hazard extremes well outside the known range of current experience and alter the loss and damage equations and fragility curves of almost all known human and natural systems, placing them at unknown levels of risk. This would render current strategies for CCA and DRR, in most countries, virtually obsolete. It also means that it is no longer sufficient to address adaptation in isolation from development planning, and that sustainable socioeconomic development, by definition, must include mitigation of global warming."""
+
+[86] Text: """That the Law is never frozen in time and space is quite a trivial insight – but one, however, that is nonetheless particularly true for the area of international human rights law and the jurisdiction to see human rights norms respected and enforced. No less is it true for international criminal law and European law. It is, of course, true at the intersection of these three fields of the law as well, exactly the place I intend to explore in this paper. And, as we shall see, poetry, that rarely unveiled subtext of the law, is never steady in its foundations."""
+
+[87] Text: """In some developing countries, subsidized energy prices can reduce the economic attractiveness of EE measures. The large number of small and dispersed end users11 also represents a particularly strong barrier in many developing countries. Moreover, many developing countries lack an effective EE policy at the national level (Jochem, 2002). These barriers are well understood and several policy measures are available to help overcome them."""
+
+[88] Text: """This reprioritization indicates that social protection is becoming more important for a large number of Governments in Asia and the Pacific (ESCAP, 2015b). Nevertheless, the Asia-Pacific region continues to fall behind the rest of the world in terms of social protection financing and coverage (see figure 1.22). Social insurance continues to dominate social protection spending in the region."""
+
+Answer:
+
+==================== BATCH 12 / 18 (items 89..96; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[89] Text: """Countries can control appreciation of the exchange rate via costly sterilization of part of the capital inflows or through regulation. However, both measures work only up to a point. These sectors, however, tend to employ medium-to-high skilled workers whose wages rise in parallel with the skilled/unskilled wage gap."""
+
+[90] Text: """Section 5 gives consideration of care for other adults in the household and finds that in most countries partnered men are less likely to be involved in care than partnered women. The use of such data by the OECD is without prejudice to the status of the Golan Heights, East Jerusalem and Israeli settlements in the West Bank under tire terms of international law. Yet, as the previous chapter shows, men do a lot more paid work than women on average. This chapter draws on time use data to demonstrate that, when it comes to unpaid work, w'omen - particularly mothers - do considerably more time than men and fathers."""
+
+[91] Text: """Disparities between women and men in SA, however, remain high: for every 100 girls enrolled in secondary education there are 158 enrolled boys. Interestingly, gender gaps in labour force participation persist in every region, but to different extents: male labour force participation is 1.23 times higher than the female counterpart in EAP, compared to 3.61 in MENA. This persistence in gender gaps attests to the global nature of gender inequality irrespective of levels of income or development: eliminating discrimination requires national commitments and priorities, and cannot just result from GDP and economic growth. These values only include the 94 countries in our sample that are ranked in the 2014 edition of the SIGI and belong to the 2014 Gallup Word Poll sample."""
+
+[92] Text: """Among other good practices, this also required changes in species composition, such as replacing hybrid poplars, which have damaged the soil, with willows and Prunus avium (wild cherry tree). The agreement of the Coca-Cola® bottling plant with local forest owners in Portugal is a good example. Payments were made for the owners to maintain their forests in good condition to keep theTagua Reservoir pure."""
+
+[93] Text: """Previously named the Institute of Public Health, its organizational structure and strategy were expanded to form the National Centre for Public Health in 2013. In line with the extended structure, while keeping its leading role in public health research, the National Centre for Public Health is responsible for a broad range of public health programme implementation and health promotion activities at the national level. The Centre’s work focuses on the following sectors, among others: environment, occupational health and research, venom toxicity studies, nutrition research, and health promotion and behavioural research. Family doctors at the soum level send the indicator values to the aimag health department, which sends the information to the Centre for Health Development on the first day of each month."""
+
+[94] Text: """Current status of corporate reporting legislation internationally (cont.) Under this scheme, all UK quoted companies must report on their GHG emissions as part of their annual directors’ reports. The requirement affects all UK incorporated companies listed on the main London Stock Exchange, another European market or whose shares are dealing on the New York Stock Exchange or NASDAQ."""
+
+[95] Text: """Adverse health effects start to occur at a blood lead level less than 10 pg/dl in children. However, no statistically significant difference in blood lead levels was observed between women living in gers and in apartments, suggesting that lead exposure comes from several sources and not only from polluted air resulting from coal combustion. However, there is a lack of data concerning the different sources of lead exposure, such as lead in paint and in toys, lead and occupational exposure, and lead in dust and soil, and their impact on the health of the Mongolian population."""
+
+[96] Text: """For example, the direct annual medical cost in the United States for a male diagnosed with diabetes (but with no complications) was found to be USD 2 465. However, these costs escalated when the disease advanced and complications set in. Annual costs rose by between 70% and 150% for patients with coronary heart disease, congestive heart failure, hemiplegia, and amputation."""
+
+Answer:
+
+==================== BATCH 13 / 18 (items 97..104; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[97] Text: """Table 11.1 describes the dimensions reflecting the basic needs that must be met for children to develop, the relevant indicators available in the aforementioned instruments and thresholds for identifying moderate and severe deprivation. For example, the universal nature of rights calls for each right (or deprivation of that right) and its levels to be assessed in the same way for all groups of children and adolescents. This led to the construction of national thresholds without the usual differentiation between urban and rural areas and making no allowances for the fact that the deprivation or violation of a right might stem from the high investment costs involved in providing access to basic services in rural areas, as rights should apply in all circumstances."""
+
+[98] Text: """For instance, at the G8 Summit in Hokkaido Toyako in 2008, donors pledged to provide $10 billion in ODA to fight hunger (Group of 8, 2008), and, at the G8 Summit in L’Aquila, Italy, in 2009, $20 billion over three years to address food insecurity in a sustainable manner (Group of 8, 2009). A study evaluating such responses in 10 emerging economies revealed the importance of providing targeted safety nets for the poor as emergency responses to food shortfalls. While trade protection and building food inventories may enhance national food availability in the short run, such measures may at the same time prove to be costly in terms of expenditure and contribute to keeping food prices high by restricting food supply in international markets (Jones and Kwiecinski, 2010)."""
+
+[99] Text: """Some of these are solely related to the large size of the new commercial nuclear units and would be equivalent for any power plant of a comparable size. However, most are in relation to the essential role that the electrical system plays in the safety of nuclear power plants. In particular, nuclear poses additional requirements in terms of grid control, monitoring and operations."""
+
+[100] Text: """This is referred to as “Authentic Mixed-Method Assessment”, which involves analysis of all the pieces of available assessment evidence when measuring deep learning design, conditions and outcomes. This disagreement is expressed most sharply in the following two extracts, the one emphasising the importance of praise, the other emphasising the need to avoid excessive praise. The important aspect of a KIP class is to encourage students and to praise the different skills held by the students, as an important and necessary part of the group ” (network leader and practitioner)."""
+
+[101] Text: """Another way to look at the burden of OOP payments for health spending is to consider this spending as a share of total household consumption. As a share of total household consumption, out-of-pocket medical spending (excluding any spending on long-term care) accounted on average for 4.7% of the final consumption of all households in Korea in 2013. This is much higher than the average across OECD countries (2.8% on average) and more than two times greater than across G7 countries (2.1%) OECD (Figure 5.7). In Korea, the share of the costs covered by the public insurance scheme is relatively low for all health services and pharmaceuticals, and even lower for dental care. Nearly 50% of all out-of-pocket spending for health care in Korea (excluding long-term care) is related to curative care in hospital or outside hospital, about 30% is for the purchase of pharmaceuticals, and the other 20% is for dental care."""
+
+[102] Text: """The intention is to ensure that employers have a clear understanding of the competency mix and professional development needs in their schools. The competency files should also help create greater transparency about each teacher’s career development and potential, and ensure that all teachers meet minimum competency requirements. When there are indications that a school’s quality of educational provision may be at risk, the Inspectorate examines whether the school board has fulfilled this obligation. Based on the idea that teacher peers are best placed to evaluate teaching practice and provide constructive feedback, the peer review project comprises teams of teachers visiting each other’s schools and developing tools to observe and evaluate teaching practice."""
+
+[103] Text: """Except in some specific cases, this increase in unskilled and semi-skilled labour supply does not appear to have displaced domestic workers. Instead immigrants appear to have generally replaced domestic workers in jobs left vacant due to a decline of the local labour force, higher education of local workers and expectations of finding employment in higher paid jobs. Migration may therefore have contributed to the observed rise in the skilled/unskilled wage ratio by causing a stagnation in the unskilled labour wages in countries of destination (as observed, for instance, in Italy). In contrast, inequality rose in the majority of the developed, developing and transitional countries between 1980 and 2000."""
+
+[104] Text: """More specifically, definitions and measures of food insecurity are beginning to move away from focusing on siloes of access, availability and utilization, and consider factors such as food sufficiency, nutrient adequacy, cultural acceptability, safety, and certainty and stability of foods (Coates, 2013). Accordingly, using indices or scales has become a more common approach to capturing these different dimensions, leading to a more comprehensive understanding of food insecurity. In the global SDG indicators framework, it has been agreed to use the Food Insecurity Experience Scale (FIES) to estimate the prevalence of moderate and severe food insecurity."""
+
+Answer:
+
+==================== BATCH 14 / 18 (items 105..112; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[105] Text: """In particular, the move from employment to unemployment has been shown to exert a strong negative effect on people’s subjective well-being. Unemployment is also the variable that has repeatedly been used in the literature on the measurement of living standards and well-being (Fleurbaey and Gaulier, 2009). At the same time, neither unemployment nor employment rates may be particularly meaningful in developing countries and emerging-market economies unless it is possible to capture informal employment."""
+
+[106] Text: """In this regard, it should be kept in mind that land use planning policies aiming at rather compact cities are those, which would enable and result in a high-occupancy public transport service®. In this context, establishment of effective and efficient urban transport system requires that the necessary infrastructure, including for the various public transport modes, be built so that it is reasonably resistant to the effects of extreme weather events caused by climate change. Resilient means that negative consequences of an extreme weather event can be easily restored. Compartmentalizing is about making compartments so that an infrastructure failure can be limited to a certain area."""
+
+[107] Text: """The views expressed in this article are those of the authors and do not necessarily reflect those of the Commonwealth SecretariaL 1 This Trade Hot Topic has been prepared based on a background paper prepared by Campling and Havice (20171 in March 2017 in which the last known submission to WTO members included In the analysis Is J08/RL/8 by Japan. Second, the proposals reintroduce discussion about 'capacity-enhancing subsidies', which had previously dropped out of discussions on the SDGs, the Trans-Pacific Partnership (TPP) and MC10, contributing to their narrowing of scope of the rules. The following summarises each of these proposals in turn. It focuses on prohibiting subsidies linked to overcapacity, including subsidies to enhance the capacity of existing vessels, for new vessel construction and for flag-based vessel transfers (EU, 2016). Subsidies to vessels engaged in illegal, unreported and unregulated (IUU) fishing (i.e. on flag-state and/or regional fisheries management organisation (RFMO) IUU lists) would also be prohibited."""
+
+[108] Text: """Joint collaboration on exchange of knowledge on methodologies, status for monitoring and assessment strategies as well as available data in the Nordic countries is a necessary element in this process. Monitoring studies of marine litter and the beach surveys demonstrate that it comprises of various constituents such as plastics, metals, glass, ceramics, rubber, processed wood, clothing, paper etc. ( The review of literature and studies on marine litter, also called marine debris, demonstrates that plastic debris comprise most of the marine litter worldwide (Aniansson etal."""
+
+[109] Text: """It will also provide standards for sustainable management and conservation of natural aquatic resources including for fish stocks. Among other activities this will be coordinated with the private sector, banks, financial institutions, and others for promoting development partnerships in the fisheries sector. The first Aquaculture Lab was accredited by the Indian National Authority in 2014. With the decision by the Accreditation Board for Testing & Calibration Laboratories (NABL) as per ISO/IEC 17025: 2005, the Central Aquaculture Pathology Laboratory of the Rajiv Gandhi Centre for Aquaculture (RGCA), under Marine Products Export Development Authority (MPEDA) will perform as the sole accredited aquaculture lab."""
+
+[110] Text: """With the advent of the smart grid, it will be possible to do the same thing on a much larger scale. Depending on the application, it can be acceptable to delay consumption for a shorter or longer time period. An example that is often used is the refrigerator which operates with a duty cycle to cool down (e.g. l/3rd cool down period, 2/3rd warming period)."""
+
+[111] Text: """The largest declines have occurred in grasslands and arid lands in North America and in farmed lands in Europe, whereas widespread forest specialists show fluctuating but stable trends. Farmland bird populations declined continuously over 1990-2010 in almost all OECD countries. The rate of decline slowed over the 2000s compared to earlier decades, in some OECD countries (e.g. the United States) farmland bird populations have even been rising since the early or mid-2000s."""
+
+[112] Text: """Other skills that are gaining increasing importance are those that are most inherently human in nature, and thus difficult for robots and machines to emulate - variously termed soft skills, transversal or transferable skills, and behavioural, interpersonal and socio-emotional skills. So, too, are competencies and attitudes such as creativity, intuition, imagination, curiosity, risk-taking, open-mindedness, logical thinking, problem-solving, decision-making, the ability to engage in contact and interact with others (empathy and emotional intelligence), communication, persuasbn and negotiation skills, networking and teamwork, and the capacity to adapt and learn new abilities. Education and training policies at all levels should aim to strengthen such abilities, skills and attitudes among current and future workers."""
+
+Answer:
+
+==================== BATCH 15 / 18 (items 113..120; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[113] Text: """Some programmes prefer the use of coarse measures of biodiversity to facilitate simpler exchanges whereas others have opted for more a detailed representation of biodiversity through more fine-scale measurement of individual characteristics (Thomas, Brandao and Chomitz, 2004). Successful indicators capture the key components of biodiversity that must be protected, according to regulatory requirements, or in the absence of such requirements, that society wants protected. These choices may be informed by the types of biodiversity and ecosystem services that are valued by stakeholders, the latest scientific understanding and the availability of data to populate the indicator at a reasonable cost/benefit ratio (Figure 4.2)."""
+
+[114] Text: """Evidence shows that temporary workers in OECD countries face a wage penalty, even after controlling for observable individual, family and work characteristics (OECD, 2015a). On average, a temporary contract worker receives an hourly wage that is 11% lower for men than their counterparts in standard jobs (13% lower for women). The underinvestment in human capital associated with short-term contracts can give rise to lower wages for temporary workers."""
+
+[115] Text: """These can be minimized by properly assessing future needs. The relationship between technology and educatbn in the context of the labour market has been depbted as a "race between educatbn and technology", in which “if workers have flexible skills and if the educational infrastructure expands sufficiently, then the supply of skills will increase as demand increases for them" (Goldin and Katz, 2007:26). The rapid pace of technological progress and increasing instability in the labour markets thus requires education policies to react with agility, while education and training systems may require significant transformations. Many countries are witnessing skills shortages in the field of digital technologies and many employers report difficulties in filling high-skill vacancies."""
+
+[116] Text: """Oracles Oracles can be used to measure actual emission of GHG and mapped against emission allowances of companies. This provides information to the smart contract if requirements have been fulfilled or if a penalty should be imposed. For instance, in the case of EU ETS, companies are required to submit an emissions report, which is reviewed by an accredited verifier acting as an independent third party (PTPA, 2017)."""
+
+[117] Text: """Since then, the country has made national commitments that go beyond any existing international agreements. These changes are explained by the new international context and, perhaps more importantly, by internal changes in the domestic political landscape. As a consequence, the Brazilian economy has a comparatively low carbon profile of 5 tonnes CO2 equivalent in emissions per capita, ranking it 17th globally."""
+
+[118] Text: """Malawi and Mozambique both adopted land redistribution policies favouring the landless and de facto occupants, while Niger’s 1986 rural code provides for mechanisms to resolve land tenure conflicts. Decentralization was achieved through land boards in Uganda, rural councils in Senegal, land commissions in Niger and land committees in Lesotho (UNECA, 2005: 129-166). Wider access to land through land reform and/or more secure rights (whether individual or collective, proprietary or not) creates better incentives for agricultural investment and is therefore likely to result in increased employment in agriculture. The mix of measures to be enacted naturally needs to be adapted to local conditions, the local institutional setting and local traditions. Nevertheless, since the mid-2000s several LDCs have been entering into lease or sale agreements involving large patches of land for commercial agriculture development by foreign investors (so-called “land grab” operations), without fully privatizing land markets."""
+
+[119] Text: """In order to assess the effects of a lower availability of wind and solar resources on the configuration of a least-cost electricity system operation, the annual electricity generation of wind and PV power plants is reduced by 15% for the scenarios with a renewable share of 80%. With the reduced availability of variable renewables, pump storage is used less, but curtailment of wind and PV power plants still amounts to approximately 4% of their annual electricity generation. In total, renewables show a share of 68% in the annual electricity demand."""
+
+[120] Text: """The IUCN Red List ofThreatened Species. The IUCN Red List ofThreatened Species. The IUCN Red List of Threatened Species. Version 2014.2 Rice, T. (2007). A Catalog ofDealers' Pricesfor Shells: Marine, Land and Freshwater, 23rd edition. In A Field Guide to the Seashores of Eastern Africa and the western Indian Ocean Islands (ed."""
+
+Answer:
+
+==================== BATCH 16 / 18 (items 121..128; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[121] Text: """The second is the relationship between inequality and sociopolitical instability. The third concerns the political economy implications of high inequality'. Finally, the fourth channel through which inequality affects the pace of output growth is related to imperfect capital markets and investment in education. And it is assumed that their higher savings will quasi automatically lead to greater investments. As discussed in previous TDRs (see, in particular TDR 2006, Annex 2 to chap. I. and TDR 2008, chap."""
+
+[122] Text: """Providing access is often perceived as the core function of water and sanitation services and therefore considered to be the area where most benefits materialise. In addition, access to those services can confer many additional benefits, ranging from the easily identifiable and quantifiable - such as time saved from collecting water closer to home or from defecating in a household latrine rather than in the open- to the intangible and difficult to measure - such as convenience and well-being. The latter are collectively referred to as “non-health” benefits. This is partly due to the fact that measuring the impact of water, sanitation and hygiene interventions on health is difficult and highly location-specific. The World Health Organisation estimates that the total economic benefits stemming from achieving the sanitation MDG for the most off-track countries would amount to USD 35 billion, out of which 90% would be generated from time saved from not having to travel long distances and queue for obtaining water or defecating (Hutton and Haller, 2004)."""
+
+[123] Text: """Further details on the linkages between remittances and food security in the ECA region are examined in Section 3. The prevalence of severe food insecurity refers to a person's capacity to access food (Bo* 2). It is based on eight simple questions about the occurrence of behaviors and experiences typical of situations in which the ability to obtain food is constrained. The combined set of answers to the eight FIES items, analysed through the lenses of rigorous methods based on item response theory, gives an opportunity for assigning each respondent a probability of belonging to any possible class of food insecurity."""
+
+[124] Text: """At the same time, a growing number of companies have found new business opportunities in sustainable production. But we need new ideas and new initiatives from all parties to enhance the development of even more win-win solutions. We need better insight into how sustainable production can contribute to the performance, profitability and competitiveness of business in order to get more companies on board."""
+
+[125] Text: """Setting a high r is tantamount to setting equally distributed income at the income of the poorest individuals in the sample. Thus, increases in lower incomes are given relatively more weight in producing social welfare than increases in high incomes. Setting x to around 1.5 corresponds to setting yc/' approximately equal to the median of the distribution."""
+
+[126] Text: """The next several years will be crucial if the network is to be successfully established and consolidated. As of January 2013, it amounted to 6.15 million ha, 20% of Poland’s land area (MoE, 2013), compared with the estimated 7% of forest area under nature protection in 2012.19 Forest accounts for more than half: 3.3 million ha or 36% of the total forest area (Table 4.5) Most forest mammals (except chamois) and birds are found outside national parks. This reinforces the need to speed up implementation of Natura 2000 in forests outside national parks."""
+
+[127] Text: """However, this has not been accompanied by an economic valuation of environmental services (e.g. carbon sequestration, air and water purification, biodiversity) and social benefits (e.g. employment, recreational opportunities, cultural values) associated with the protective functions. Doing so would allow the gearing of forest policies towards maximising the social, economic and environmental services provided by forests. Including forestry, manufacturing of wood, paper products and furniture. Threatened species are endangered, critically endangered and vulnerable species."""
+
+[128] Text: """The situation deteriorated significantly in sub-Saharan Africa, where the number of undernourished people increased from 195 million in 2014 to 237 million in 2017. Sub-Saharan Africa remains the region with the highest prevalence of hunger, with the rate increasing from 20.7 per cent in 2014 to 23.2 per cent in 2017. In South America, the situation also appears to be worsening."""
+
+Answer:
+
+==================== BATCH 17 / 18 (items 129..136; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[129] Text: """Of all children who are poor and deprived at the same time, 31% are in Sikasso, 19% in Segou, 18% in Koulikoro, and 16% in Mopti. Even though Bamako has a population share of 15%, its proportion of poor and deprived is only 1%. For instance, early marriage, early pregnancy and female genital mutilation are relevant to the well-being of the girl child."""
+
+[130] Text: """On the other hand most of the sub-Saharan African countries in the lower ranks of the figure have either witnessed increased poverty or relatively slow progress towards poverty reduction. The divergent experiences within the group of countries recording mass poverty are of paramount importance in understanding the problem of persistent extreme poverty at the global level. The comparison of the experience of this group of countries with those at less extreme levels of poverty, as defined by international poverty lines, can also be instructive. Figure 29 shows examples of typical country experiences in relation to their poverty trends and the effect of changes in income distribution on poverty."""
+
+[131] Text: """Programmes are underway to rehabilitate the networks and bring them back to their original conveyance capacity within a few years. Taking this into account, the total future capacity of hydropower will increase to 2,627 MW. However, most hydropower plants are in a rather poor state due to lack of maintenance and therefore they do not operate efficiently. Furthermore, the existing power plants do not take into consideration the ecological aspects required in the EU Water Framework Directive (2000/60/EC) and until now no revitalization activities have been implemented."""
+
+[132] Text: """Thereafter, farmers selected and saved the seeds of a few prime candidates for future cultivation. They introduced increasing controls to the reproductive process, either through selective open-pollination or purified in-breeding to develop improved varieties. Eventually, they discovered that crossing two separate in-bred lines to form hybrids injected a surge of vigour into the immediate offspring."""
+
+[133] Text: """This underscores the need for initiatives that focus on agriculture and climate change in combination. Without increasing adaptation and resilience, this is expected to reduce food production and cause losses to economic growth, livelihoods and well-being and make fulfilment of the SDGs especially difficult."""
+
+[134] Text: """However, as shown in Figure 1.19, at the global level, milk production is more sensitive to macroeconomic uncertainty than to yield (crops or milk) uncertainty. In the first place, it affects feed costs, notably via exchange rate and crude oil price, as well as through other dairy production costs. In addition, GDP and CPI uncertainty affects demand."""
+
+[135] Text: """In response, international organizations such as the UN Development Programme (UNDP), the UN Environment Programme (UNEP) and the Organisation for Economic Co-operation and Development (OECD) have promoted the exchange of policy initiatives, action programmes and practices among member countries, industrial associations and academic institutions. For example, UNEP introduced cleaner production (CP), which promotes a shift from end-of-pipe treatment to pollution prevention, while the UNDP has appealed for environmentally sound technology in technology transfer programmes and assistance to developing countries. In the follow-up meeting after the Rio Declaration and Agenda 21, the International Human Dimensions Programme (IHDP) was established as a collaborative platform for social scientists and policy-oriented academics."""
+
+[136] Text: """The countries are all relatively close to the line, indicating that the model explains most of the variation in growth rates across countries. In fact, adding cognitive skills to a basic model that just includes initial income and years of schooling increases the share of cross-country variation in economic growth explained by the model from about one-quarter to about three-quarters. The quantity of schooling is statistically significantly related to economic growth in a specification that neglects educational quality, but the association between years of schooling and growth turns insignificant and is reduced to close to zero once cognitive skills are included in the model. In other words, added years of schooling do not affect growth unless they yield greater achievement."""
+
+Answer:
+
+==================== BATCH 18 / 18 (items 137..144; PASTE INTO A FRESH CHAT) ====================
+You are an expert annotator for the United Nations Sustainable Development Goals (SDGs). You answer only with JSON.
+
+Goals:
+1 No Poverty
+2 Zero Hunger
+3 Good Health and Well-being
+4 Quality Education
+5 Gender Equality
+6 Clean Water and Sanitation
+7 Affordable and Clean Energy
+8 Decent Work and Economic Growth
+9 Industry, Innovation and Infrastructure
+10 Reduced Inequalities
+11 Sustainable Cities and Communities
+12 Responsible Consumption and Production
+13 Climate Action
+14 Life Below Water
+15 Life on Land
+16 Peace, Justice and Strong Institutions
+
+Task: For each numbered text below, decide which ONE goal (1..16) the text mainly addresses.
+Return ONLY a single JSON object mapping each item number to its integer goal, like {"1": 7, "2": 13}, with no explanation.
+
+[137] Text: """Increasing food availability leads to more robust diets and decreasing numbers of malnourished children. However, the price changes that we see in the adaptation scenarios are fairly modest and lead only to small increases in food availability globally (less than a 0.5% increase), with a correspondingly small improvement in the rate of malnourishment (which decreases by less than 0.5%). Thus, while these scenarios help mitigate some of the effects of climate change, they do not fully mitigate potential food insecurity in developing countries."""
+
+[138] Text: """At the current rate, the world will miss the MDG sanitation target by over 700 million people. Southern Asia and Sub-Saharan Africa are especially off track in terms of sanitation coverage. Various estimates of investment needs to meet the MDGs in developing countries were produced since the Millennium Declaration. The most recent estimates of financial needs for the sector by World Health Organization (see Hutton and Bartram, 2008, Pruss-Ustiin et al.,"""
+
+[139] Text: """Are men who take their parental leave in full, for example, seen as uncommitted to their careers and passed over for promotion? Yet today’s economies need all available talent to ensure a sustainable and prosperous future, while the right balance must be struck between responsibilities at home and at work to deliver better lives for all. When asked, fewer women than men say they would prefer to be self-employed."""
+
+[140] Text: """Reducing avoidable food waste might also be regarded as part of this overall strategy. The aim has been that the project will have a lasting impact, and that it will progressively extend its scope within Europe, reaching as wide an audience, and raising awareness among the greatest number of citizens possible."""
+
+[141] Text: """This approach is geared towards the production of knowledge and innovation, and contributes to raising awareness among Dutch citizens about water risks. Their activities often consist in infrastructure financing, capacity building and education programmes as well as policy guidance and they are a vital means of complementing limited public sector and operator capacity to undertake these activities. Hence, better educational materials for different grade levels related to water availability and sustainable development should be developed."""
+
+[142] Text: """These weaknesses can depress the growth performance of the farmed fish (Norwegian Scientific Committee for Food Safety 2009). Even legal or administrative limits have been set for main nutrient contents of the feeds. Organic fecal wastes from plant-based feeds are a concern as well. Expanding use of recirculation systems in aquaculture set new qualifications for feeds."""
+
+[143] Text: """It implements an extensive pest control programme to reduce bovine Tb. Farmers and the public can obtain free data on movements in the national average yearly milk solids price for up to 20 years from its publication New Zealand Dairy Statistics, available on its website,. Information is also provided on how to cope with adverse conditions arising from drought and floods based on previous experience. Since its launch in 1998, the Group has grown to be one of the world's largest online foreign exchange companies by offering competitive exchange rates, technology and service. The company is structured as a farmer cooperative and is owned by about 20 000 farmer suppliers."""
+
+[144] Text: """In 2007, more than 7.6 million bottles of SWS product - enough to treat 7.8 billion litres of drinking water and supply 10.6 million users - were sold for routine (non-emergency, non-outbreak) use in 20 countries. Nearly 60 percent of these sales were in just three countries, Zambia, Madagascar, and Malawi, which means that these countries have achieved scale in terms of coverage for household water treatment and safe storage. In a series of published randomised intervention trials conducted by CDC in three continents, the Safe Water Systems have shown to reduce the diarrheal disease incidence by 25-84%, with an average of 50%. Whereas unsafe or insufficient water affects primarily the individuals concerned, inadequate sanitation can have significant external effects through the spread of epidemics."""
+
+Answer:
